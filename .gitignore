@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+preview/
+*.tsbuildinfo
+.env*
+!.env.example
+design/intermediates/
+public/journey/raw/
+*.blend1
+*.log

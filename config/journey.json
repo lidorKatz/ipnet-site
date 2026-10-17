@@ -1,0 +1,40 @@
+{
+  "frameCount": 120,
+  "scenes": [
+    {"id":"intro","start":0,"end":0.08,"label":"ONE CONNECTED PROPERTY","headline":["One team.","Total security."],"body":"Security, entry and connectivity. Brought together.","side":"intro"},
+    {"id":"cctv","start":0.08,"end":0.20,"label":"01 / CCTV & VIDEO SURVEILLANCE","headline":["Every angle.","Considered."],"body":"Cameras, recording and remote viewing. Installed and connected around your property.","side":"right"},
+    {"id":"intercom","start":0.20,"end":0.31,"label":"02 / VIDEO INTERCOM","headline":["See. Communicate.","Grant access."],"body":"A connection at the entrance. Clear communication throughout the building.","side":"right"},
+    {"id":"access","start":0.31,"end":0.43,"label":"03 / ACCESS CONTROL","headline":["The right access.","At the right time."],"body":"Readers, credentials and door hardware. One coordinated point of entry.","side":"left"},
+    {"id":"lobby","start":0.43,"end":0.54,"label":"04 / BUILDING ENTRY SYSTEMS","headline":["Connected entry.","Centralized control."],"body":"From the front door to the reception desk. Systems that work together.","side":"right"},
+    {"id":"xray","start":0.54,"end":0.67,"label":"05 / BEHIND THE WALLS","headline":["The connections", "you don’t see."],"body":"A clear path from cameras, entry and wireless to the infrastructure behind them.","side":"left"},
+    {"id":"network","start":0.67,"end":0.78,"label":"06 / NETWORK INFRASTRUCTURE","headline":["The system", "behind the system."],"body":"Structured cabling. Network racks. PoE. Professional connections from end to end.","side":"left"},
+    {"id":"wireless","start":0.78,"end":0.86,"label":"07 / WI-FI & CONNECTIVITY","headline":["Connected", "throughout."],"body":"Access points, coverage and network configuration. Built around the way you use your space.","side":"left"},
+    {"id":"locksmith","start":0.86,"end":0.94,"label":"08 / LOCKSMITH & DOOR HARDWARE","headline":["Precision.", "At the point of entry."],"body":"Residential. Commercial. Automotive. 24/7 emergency locksmith service.","side":"left"},
+    {"id":"final","start":0.94,"end":1,"label":"IP.NET SECURITY & LOCKSMITH","headline":["Get connected.","Stay protected."],"body":"One company. One point of contact. Complete solution.","side":"final"}
+  ],
+  "waypoints": [
+    {"at":0,"position":[9,2.5,17],"lookAt":[0,2.4,5],"fov":44},
+    {"at":0.045,"position":[7,2.25,13.6],"lookAt":[0,2,5.9],"fov":45},
+    {"at":0.08,"position":[-6.2,3.5,11],"lookAt":[-3.4,3.05,6.3],"fov":44},
+    {"at":0.145,"position":[-3.9,3.15,7.65],"lookAt":[-3.4,3.05,6.3],"fov":40},
+    {"at":0.20,"position":[-2.7,2.2,8.2],"lookAt":[-1.8,1.65,6.3],"fov":45},
+    {"at":0.265,"position":[-2.2,1.8,7.5],"lookAt":[-1.8,1.65,6.3],"fov":43},
+    {"at":0.31,"position":[0,1.85,8.4],"lookAt":[1.1,1.5,6.3],"fov":46},
+    {"at":0.37,"position":[1.1,1.7,7.55],"lookAt":[1.7,1.48,6.3],"fov":43},
+    {"at":0.43,"position":[0,1.7,7.2],"lookAt":[0,1.6,1],"fov":51},
+    {"at":0.49,"position":[0,1.7,2],"lookAt":[-3.15,1.2,-2.1],"fov":51},
+    {"at":0.54,"position":[0.5,1.9,-0.8],"lookAt":[2.5,1.8,-7.5],"fov":53},
+    {"at":0.61,"position":[2.5,2.1,-4.5],"lookAt":[5.9,1.9,-10.7],"fov":53},
+    {"at":0.67,"position":[4.8,1.85,-8.1],"lookAt":[6.25,1.4,-11.2],"fov":48},
+    {"at":0.735,"position":[5.75,1.55,-9.3],"lookAt":[6.25,1.4,-11.2],"fov":44},
+    {"at":0.78,"position":[4.6,2.15,-8.6],"lookAt":[2.5,3.35,-6.2],"fov":51},
+    {"at":0.83,"position":[2.5,2.55,-7.5],"lookAt":[2.5,3.38,-6.2],"fov":46},
+    {"at":0.86,"position":[2.5,1.7,-9.6],"lookAt":[3,1.22,-14.1],"fov":49},
+    {"at":0.92,"position":[2.99,1.3,-13.15],"lookAt":[3.02,1.23,-14.05],"fov":43},
+    {"at":0.94,"position":[3,1.45,-12.5],"lookAt":[3.02,1.23,-14.05],"fov":47},
+    {"at":0.96,"position":[2.5,1.9,-8],"lookAt":[2.5,1.6,-13],"fov":51},
+    {"at":0.975,"position":[0.2,1.9,1.5],"lookAt":[2.5,1.7,-5.5],"fov":52},
+    {"at":0.985,"position":[0,2.6,10.5],"lookAt":[0,2.6,3],"fov":48},
+    {"at":1,"position":[11,6.5,19],"lookAt":[0,4,3],"fov":45}
+  ]
+}
