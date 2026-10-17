@@ -2,6 +2,7 @@ node_modules/
 .next/
 out/
 preview/
+delivery/
 *.tsbuildinfo
 .env*
 !.env.example
@@ -9,3 +10,4 @@ design/intermediates/
 public/journey/raw/
 *.blend1
 *.log
+__pycache__/

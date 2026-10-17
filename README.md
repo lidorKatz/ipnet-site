@@ -16,7 +16,7 @@ npm run dev -- --port 3000
 `npm run typecheck` checks TypeScript. `npm run build` verifies all 120 rendered
 frames and their checksums, then exports the site to `out/`. `npm start` serves
 that export on port 3000. No application server or database is required in
-production. Fonts and journey imagery are hosted with the site.
+production. Raw authoring PNGs are excluded from the export. Fonts and journey imagery are hosted with the site.
 
 The release build deliberately fails if the rendered film is incomplete.
 `IPNET_ALLOW_PARTIAL=1 npm run build` is an explicitly incomplete authoring build,
@@ -59,6 +59,11 @@ WhatsApp and send it. It does not claim a message was submitted to a backend.
 The optional public `NEXT_PUBLIC_BUSINESS_PHONE` overrides the confirmed number
 at build time. An explicitly blank or invalid value hides phone/WhatsApp links.
 No secret is needed to build or use the current contact flow.
+
+After committing the finished source and assets, run
+`python3 scripts/package-delivery.py` to create source, static-site and holding-page
+ZIPs plus the standalone review in `delivery/`. The packager refuses incomplete
+frames, stale exported assets or uncommitted source.
 
 See [DEPLOYMENT.md](docs/DEPLOYMENT.md) for domain and hosting instructions and
 [RECOVERY.md](docs/RECOVERY.md) for the confirmed brief and recovery history.

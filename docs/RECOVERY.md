@@ -1,12 +1,12 @@
 # IP NET website recovery
 
-## Current evidence
+## Initial recovery state
 
-The current checkout contains the legacy `index11 (1).html` and repository
+The initial checkout contained the legacy `index11 (1).html` and repository
 history. The later Next.js app, authored assets, quality renders and review ZIPs
-were not committed and are absent from this checkout. Do not report them as
-available or published. A downloaded source archive from the conversation can
-restore the working baseline; otherwise the implementation must be rebuilt.
+had not been committed and were absent. Those old artifacts must not be reported
+as recovered or published. The site was subsequently rebuilt from the recovered
+brief and confirmed business information; the owner does not need to locate ZIPs.
 
 The user's original 23,505-byte POC brief was recovered from their uploaded
 attachment and is preserved beside this document. Its placeholder-first scope
@@ -52,13 +52,19 @@ scripts and assets also need recovery or reimplementation.
 
 ## Recovery and preservation
 
-Preferred source archives previously supplied to the user:
+The new source is on `codex/rendered-site-recovery`. Remote backup was verified
+by comparing local HEAD with the remote branch after pushing. The rebuilt app
+uses the chosen rendered film and interactive HTML; the previous realtime
+Three.js prototype is not its runtime. Consult the current README and render
+manifest for the new implementation and frame-completion status.
+
+Historical source archives previously supplied to the user:
 `IP-NET-Claude-Code-Handoff.zip` or `IP-NET-NextJS-Project.zip`.
 These archives predate some later model/render improvements, so validate their
 contents and restore the actual baseline without claiming they include every
 later change. Preserve the legacy file and inspect before extracting.
 
-After restoration, build and check the source, commit the working implementation
+After changes, build and check the source, commit the working implementation
 and verify a remote backup before relying on environment files. Provide source
 and review downloads as additional backups. A local commit alone is not proof
 that GitHub contains the work.
