@@ -7,6 +7,7 @@ import data from "@/config/render-manifest.json";
 import {asset} from "@/lib/assets";
 import {brand} from "@/config/brand";
 import {Arrow} from "./Icons";
+import {SystemHotspot} from "./SystemHotspot";
 type Frame={src:string;progress:number};
 const manifest=data as {frames:Frame[];poster:string;complete:boolean;width:number;height:number};
 const {scenes}=specification;
@@ -17,21 +18,22 @@ export function Journey(){
  const progress=useRef(0),draw=useRef<(p:number)=>void>(()=>{}),overlays=useRef<(HTMLElement|null)[]>([]);
  const bar=useRef<HTMLDivElement>(null),chapter=useRef<HTMLSpanElement>(null);
  const[ready,setReady]=useState(false),[reduced,setReduced]=useState(false),[debug,setDebug]=useState(false);
+ const [activeScene,setActiveScene]=useState("intro");const activeId=useRef("intro");
  const resize=useRef<()=>void>(()=>{});
  useEffect(()=>{const media=matchMedia("(prefers-reduced-motion: reduce)");const update=()=>setReduced(media.matches);update();media.addEventListener("change",update);setDebug(new URLSearchParams(location.search).get("debug")==="1");return()=>media.removeEventListener("change",update);},[]);
  useEffect(()=>{
   const surface=canvas.current;if(!surface)return;const ctx=surface.getContext("2d",{alpha:false});if(!ctx){setReady(true);return;}
-  let disposed=false,current:HTMLImageElement|null=null,target=0,raf=0;
+  let disposed=false,current:HTMLImageElement|null=null,target=0,renderedIndex=-1,raf=0;
   const cache=new Map<number,{image:HTMLImageElement;ready:boolean}>(),failed=new Set<number>();
   const paint=()=>{if(disposed||!current)return;const w=surface.width,h=surface.height;const scale=Math.max(w/current.naturalWidth,h/current.naturalHeight);
-   const dw=current.naturalWidth*scale,dh=current.naturalHeight*scale;ctx.fillStyle="#080b0f";ctx.fillRect(0,0,w,h);ctx.drawImage(current,(w-dw)/2,(h-dh)/2,dw,dh);
+   const dw=current.naturalWidth*scale,dh=current.naturalHeight*scale;ctx.fillStyle="#080b0f";ctx.fillRect(0,0,w,h);ctx.drawImage(current,(w-dw)/2,(h-dh)/2,dw,dh);if(stage.current){stage.current.dataset.frame=String(renderedIndex);stage.current.dataset.cachedFrames=String(cache.size);}
   };
   const load=(index:number,priority=false)=>{
    if(index<0||index>=manifest.frames.length||failed.has(index))return;
-   const existing=cache.get(index);if(existing){if(existing.ready&&index===target){current=existing.image;paint();}return;}
+   const existing=cache.get(index);if(existing){if(existing.ready&&index===target){current=existing.image;renderedIndex=index;paint();}return;}
    const image=new Image();image.decoding="async";if(priority)image.fetchPriority="high";
    const entry={image,ready:false};cache.set(index,entry);
-   image.onload=()=>{if(disposed||cache.get(index)!==entry)return;entry.ready=true;if(index===target){current=image;paint();setReady(true);}};
+   image.onload=()=>{if(disposed||cache.get(index)!==entry)return;entry.ready=true;if(index===target){current=image;renderedIndex=index;paint();setReady(true);}};
    image.onerror=()=>{if(cache.get(index)!==entry)return;failed.add(index);cache.delete(index);};
    image.src=asset(manifest.frames[index].src);
    while(cache.size>18){const key=[...cache.keys()].sort((a,b)=>Math.abs(b-target)-Math.abs(a-target))[0];if(key===target)break;const old=cache.get(key);cache.delete(key);if(old&&!old.ready)old.image.src="data:,";}
@@ -50,6 +52,7 @@ export function Journey(){
  },[]);
  const update=useCallback((value:number)=>{
   const p=clamp(value);progress.current=p;const index=scenes.findIndex((scene,i)=>p>=scene.start&&(p<scene.end||i===scenes.length-1));const active=scenes[Math.max(0,index)];
+  if(activeId.current!==active.id){activeId.current=active.id;setActiveScene(active.id);}
   if(stage.current){stage.current.dataset.progress=p.toFixed(5);stage.current.dataset.scene=active.id;}
   if(bar.current)bar.current.style.transform=`scaleX(${p})`;
   if(chapter.current)chapter.current.textContent=active.id==="intro"?"SCROLL TO EXPLORE":active.label;
@@ -68,8 +71,7 @@ export function Journey(){
  return <div className={reduced?"journey reduced":"journey"} ref={container} id="top">
  <div className="journey-stage" ref={stage} data-progress="0" data-scene="intro" data-ready={ready}>
   <img className="journey-poster" src={asset(manifest.poster)} alt="" fetchPriority="high"/><canvas ref={canvas} className="journey-canvas" aria-hidden="true"/><div className="scene-tint" aria-hidden="true"/>
-  {!ready&&<div className="scene-loading"><strong>IP.NET</strong><span>One team. Total security.</span></div>}
-  <div className="scene-overlays">{scenes.map((scene,index)=><section key={scene.id} ref={el=>{overlays.current[index]=el;}} className={`scene-overlay copy-${scene.side}`} data-scene={scene.id} aria-label={scene.label}>
+  <div className="scene-overlays">{scenes.map((scene,index)=><section key={scene.id} ref={el=>{overlays.current[index]=el;}} className={`scene-overlay copy-${["cctv","lobby"].includes(scene.id)?"left":scene.side}`} data-scene={scene.id} aria-label={scene.label}>
     <div className="scene-copy"><span className="eyebrow"><i/>{scene.label}</span>
     {scene.id==="intro"?<h1>{scene.headline.map(line=><span key={line}>{line}</span>)}</h1>:<h2>{scene.headline.map(line=><span key={line}>{line}</span>)}</h2>}
     <p>{scene.body}</p>
@@ -78,6 +80,7 @@ export function Journey(){
     {scene.id==="locksmith"&&brand.telephone&&<a className="text-link" href={brand.telephone}>{brand.phoneDisplay} <Arrow/></a>}
     </div>
   </section>)}</div>
+  {!reduced&&<SystemHotspot scene={activeScene}/>}
   {!reduced&&<nav className="chapter-rail" aria-label="Explore the building">{scenes.filter(s=>s.id!=="intro"&&s.id!=="final"&&s.id!=="xray").map((s,i)=><button key={s.id} onClick={()=>jump((s.start+s.end)/2)} aria-label={`Explore ${s.label.split(" / ")[1]}`} title={s.label.split(" / ")[1]}><span>{String(i+1).padStart(2,"0")}</span><i/></button>)}</nav>}
   <div className="journey-bottom"><span ref={chapter}>SCROLL TO EXPLORE</span><a href="#services">{reduced?"EXPLORE OUR SERVICES":"ONE PROPERTY. EVERY CONNECTION."}<Arrow/></a></div>
   <div className="journey-progress" ref={bar}/>

@@ -1,9 +1,70 @@
 {
   "complete": false,
-  "frames": [],
+  "frames": [
+    {
+      "src": "/journey/frames/frame-000.webp",
+      "progress": 0.0,
+      "sha256": "8b531b72f5e5fa4c58d7ba5577399601d90f298d77f0156dae5f67c668255e6f",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-017.webp",
+      "progress": 0.14285714285714285,
+      "sha256": "efb93edf1276e4b5f31969fa4e0bf285f7ca78cd5d64896a09459f555cd03696",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-031.webp",
+      "progress": 0.2605042016806723,
+      "sha256": "554f95de25f2a142dc9abffd194c2688074cd313a8c2c30da90e1d4c09cbdab1",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-045.webp",
+      "progress": 0.37815126050420167,
+      "sha256": "5e845f439cee52c1c739392fde6e3120e95d60bcf42307db7e0561ea9ad86ba0",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-058.webp",
+      "progress": 0.48739495798319327,
+      "sha256": "2a7ce4f4c7ddc1c8ee3c1486a9dde9f94ba1c2ff7c13ad379f05b53f26217674",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-072.webp",
+      "progress": 0.6050420168067226,
+      "sha256": "535170ee43edf5eddbae01f262a847453c5c47f7a32da80a6750c8a31ec4235f",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-088.webp",
+      "progress": 0.7394957983193278,
+      "sha256": "3ffd660e186bee70c71f27d0d1e58adf9a339d82f888abd039894f0707f03bf5",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-099.webp",
+      "progress": 0.8319327731092437,
+      "sha256": "cb1a4cccef421a2817efb0d292edc969af57b0aa5f426b0c722e47aca62b1ba7",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-110.webp",
+      "progress": 0.9243697478991597,
+      "sha256": "e609342c2301ae5b5e2b3749f20da34de40140020ceaf00e52afa46300adb458",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-119.webp",
+      "progress": 1.0,
+      "sha256": "5536b956a0f63389b82163b7477381c0a70ab8f32bf8554d1c226fe1203f6523",
+      "samples": 16
+    }
+  ],
   "poster": "/journey/poster.webp",
   "width": 960,
   "height": 640,
-  "sourceSha256": null,
-  "totalFrameBytes": 0
+  "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+  "totalFrameBytes": 200788
 }

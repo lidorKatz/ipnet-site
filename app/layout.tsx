@@ -8,7 +8,7 @@ const mono=localFont({src:"../public/fonts/mono-400.woff2",weight:"400",variable
 export const metadata:Metadata={
  metadataBase:new URL(brand.url),title:"IP NET Security & Locksmith | NYC, Northern NJ & Westchester",
  description:"CCTV, intercom, access control, Wi-Fi, structured cabling, repairs and 24/7 emergency locksmith services across NYC, Northern New Jersey and Westchester.",
- alternates:{canonical:"/"},openGraph:{title:"IP NET — One team. Total security.",description:"Security, entry and connectivity. Brought together.",url:brand.url,siteName:brand.name,locale:"en_US",type:"website"},robots:{index:true,follow:true}
+ alternates:{canonical:"/"},openGraph:{title:"IP NET — One team. Total security.",description:"Security, entry and connectivity. Brought together.",url:brand.url,siteName:brand.name,locale:"en_US",type:"website",images:[{url:"/journey/poster.webp",width:1200,height:800,alt:"An illustrative connected property — IP NET Security & Locksmith"}]},twitter:{card:"summary_large_image"},robots:{index:true,follow:true}
 };
 const organization={"@context":"https://schema.org","@type":"Organization",name:brand.name,url:brand.url,email:brand.email,...(brand.telephone?{telephone:brand.telephone.slice(4)}:{}),slogan:"One team. Total security.",areaServed:["New York City","Northern New Jersey","Westchester County"]};
 export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en" className={archivo.variable+" "+instrument.variable+" "+mono.variable}><body><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(organization).replace(/</g,"\\u003c")}}/><a className="skip-link" href="#services">Skip the journey — explore our services</a>{children}</body></html>;}

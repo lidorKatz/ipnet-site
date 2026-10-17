@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --hostname 0.0.0.0",
-    "build": "node scripts/check-assets.mjs && next build",
+    "build": "node scripts/check-assets.mjs && next build && node scripts/clean-export.mjs",
     "typecheck": "tsc --noEmit",
     "start": "python3 -m http.server 3000 --bind 0.0.0.0 --directory out",
     "preview:build": "node scripts/build-preview.mjs",

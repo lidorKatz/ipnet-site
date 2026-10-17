@@ -1,0 +1,32 @@
+{
+  "authorship": "Original illustrative 3D property; not a client installation.",
+  "sourceSha256": "0ec0e2cb7cbe7c747ea810bb62e8001dff10bce2b9c4737e47f0c4a11bdcba57",
+  "frameCount": 120,
+  "resolution": [
+    1200,
+    800
+  ],
+  "frames": [
+    {
+      "progress": 0.0,
+      "position": [
+        9,
+        2.5,
+        17.0
+      ],
+      "lookAt": [
+        0,
+        2.4,
+        5.0
+      ],
+      "fov": 44,
+      "doorOpening": 0,
+      "seconds": 65.88,
+      "samples": 40,
+      "engine": "CYCLES",
+      "sourceSha256": "0ec0e2cb7cbe7c747ea810bb62e8001dff10bce2b9c4737e47f0c4a11bdcba57",
+      "file": "public/journey/raw/poster.png"
+    }
+  ],
+  "elapsedSeconds": 66.41
+}
