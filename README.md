@@ -44,6 +44,9 @@ Raw PNGs and denoising intermediates are regenerable and ignored. Optimized
 WebP frames, their integrity manifest, authoring source and fonts belong in Git.
 Only rerender after visual/source changes; ordinary development uses those
 committed assets without installing Blender or OIDN.
+Preparation can also recover verified committed WebP frames without their raw
+PNG cache and merge newly rendered ranges. It reuses them only when source and
+checksums match. A changed scene needs a consistent new sequence.
 
 `preview/IP-NET-Website-Review.html` is a self-contained offline review of the
 actual application, including fonts and frames. It is generated, not an alternate
@@ -65,6 +68,12 @@ After committing the finished source and assets, run
 ZIPs plus the standalone review in `delivery/`. The packager refuses incomplete
 frames, stale exported assets or uncommitted source.
 Packaging also uses FFmpeg to create a short scene-only MP4 review.
+
+Browser checks against a running export use
+`node scripts/browser-check.cjs http://127.0.0.1:3000`; after generating the review,
+`node scripts/check-offline.cjs` tests it with network requests blocked. Playwright
+and Chromium are installed in the cloud machine; elsewhere set `PLAYWRIGHT_MODULE`
+and `CHROMIUM_PATH` to installed equivalents.
 
 See [DEPLOYMENT.md](docs/DEPLOYMENT.md) for domain and hosting instructions and
 [RECOVERY.md](docs/RECOVERY.md) for the confirmed brief and recovery history.
