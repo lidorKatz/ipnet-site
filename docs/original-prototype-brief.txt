@@ -1,0 +1,1150 @@
+You are the lead creative developer, Three.js engineer, interaction designer, and frontend architect for a premium interactive website.
+
+Your task is to BUILD a complete working proof-of-concept for a cinematic, scroll-driven 3D homepage for:
+
+IP.NET SECURITY & LOCKSMITH
+
+This is a real security, access control, low-voltage, networking, CCTV, intercom, and locksmith company serving New York City.
+
+The purpose of this project is to create a premium, cinematic website experience where the visitor scrolls through one luxury New York building and discovers the different systems installed throughout the property.
+
+Do not create a generic corporate website.
+
+Do not create a typical hero section followed by cards.
+
+The homepage itself must feel like an interactive architectural film controlled by scrolling.
+
+The final visual direction should eventually feel comparable to a high-end digital agency / Awwwards-style interactive experience.
+
+However, for this first implementation, prioritize:
+
+1. Architecture
+2. Scroll mechanics
+3. Camera choreography
+4. Scene transitions
+5. Code quality
+6. Performance
+7. Easy replacement of placeholder 3D assets later
+
+Do NOT stop because final 3D models are unavailable.
+
+Create procedural / primitive placeholder geometry wherever required so the complete experience works immediately.
+
+==================================================
+TECH STACK
+==================================================
+
+Use:
+
+- Next.js latest stable version
+- TypeScript
+- React
+- React Three Fiber
+- Three.js
+- @react-three/drei
+- GSAP
+- GSAP ScrollTrigger
+- CSS Modules, Tailwind, or clean global CSS — choose the approach that produces the cleanest maintainable implementation
+- GLTF/GLB support for future assets
+
+The site must run locally using:
+
+npm install
+npm run dev
+
+Use a clean production-ready project structure.
+
+Avoid unnecessary dependencies.
+
+==================================================
+CORE CONCEPT
+==================================================
+
+The visitor starts outside a premium Manhattan-style building at dusk.
+
+As the visitor scrolls, the 3D camera travels through the building.
+
+The sequence is:
+
+INTRO
+↓
+CCTV
+↓
+VIDEO INTERCOM
+↓
+ACCESS CONTROL
+↓
+LOBBY
+↓
+NETWORKING / X-RAY TRANSITION
+↓
+NETWORK / IT ROOM
+↓
+WIRELESS
+↓
+LOCKSMITH
+↓
+FINAL BUILDING PULLBACK
+
+The scroll position must control the progression.
+
+Scrolling backward must reverse the experience naturally.
+
+The experience must feel like one continuous camera journey, not separate disconnected slides.
+
+==================================================
+VISUAL DIRECTION
+==================================================
+
+Overall mood:
+
+- Premium
+- Architectural
+- Cinematic
+- Modern New York
+- Dark
+- Sophisticated
+- Minimal
+- Technical without looking like a gaming interface
+
+Color palette:
+
+Background:
+#050505
+#0B0B0B
+
+Text:
+#FFFFFF
+#D9D9D9
+
+Secondary:
+#747474
+
+Accent blue:
+#3D9BFF
+
+Use blue only as an intentional system/security highlight.
+
+No gradients unless extremely subtle and required for lighting.
+
+No colorful tech aesthetic.
+
+No cyberpunk.
+
+No gaming HUD.
+
+No excessive glowing lines.
+
+No cheesy particle effects.
+
+Typography should feel editorial and architectural.
+
+Preferred fonts:
+
+- Archivo 600 for major headlines
+- Instrument Sans 400–600 for body/UI
+- IBM Plex Mono only where a technical/system label makes sense
+
+If fonts are not locally available, use Google Fonts or suitable fallbacks.
+
+==================================================
+PAGE BEHAVIOR
+==================================================
+
+The 3D experience should occupy the viewport while the user scrolls through a long scroll container.
+
+Use ScrollTrigger with scrub.
+
+The WebGL canvas should remain pinned/sticky while the overall scroll progress drives:
+
+- camera position
+- camera rotation
+- object animation
+- doors
+- lighting
+- opacity
+- cable/system highlighting
+- scene-specific UI text
+
+Create one normalized master progress value:
+
+0.0 → 1.0
+
+Map all scenes to that master progress.
+
+Approximate scene ranges:
+
+0.00 – 0.08 INTRO
+0.08 – 0.20 CCTV
+0.20 – 0.31 INTERCOM
+0.31 – 0.43 ACCESS CONTROL
+0.43 – 0.54 LOBBY
+0.54 – 0.67 NETWORK TRANSITION
+0.67 – 0.78 NETWORK ROOM
+0.78 – 0.86 WIRELESS
+0.86 – 0.94 LOCKSMITH
+0.94 – 1.00 FINAL PULLBACK
+
+Do not use hard jumps between scenes.
+
+Blend smoothly.
+
+Use easing sparingly because scrub must remain responsive to scroll.
+
+==================================================
+INTRO
+==================================================
+
+Initial screen:
+
+Almost completely black.
+
+Small centered branding:
+
+IP.NET
+SECURITY & LOCKSMITH
+
+Then slowly reveal a premium New York building at dusk.
+
+The camera should begin from street level.
+
+The building should have:
+
+- stone facade
+- dark metal framing
+- glass entrance
+- warm lobby lighting
+- urban sidewalk
+- subtle environment lighting
+
+Do not put IP.NET signage on the building.
+
+This is NOT an IP.NET-owned building.
+
+It is a property where IP.NET installed the systems.
+
+Main headline:
+
+One company.
+One point of contact.
+Complete solution.
+
+The headline should be clean and restrained.
+
+As scroll begins, the branding/headline gradually moves out of focus or fades as the camera starts approaching the building.
+
+==================================================
+SCENE 01 — CCTV
+==================================================
+
+Camera moves toward the facade.
+
+Create three placeholder CCTV cameras mounted around the exterior.
+
+One should become the hero camera.
+
+As the camera approaches:
+
+- subtly emphasize the CCTV unit
+- slightly reduce visual emphasis of the surrounding building
+- create a very subtle transparent field-of-view cone or coverage visualization
+
+Do NOT make the cone look like a video game.
+
+UI overlay:
+
+CCTV & VIDEO SURVEILLANCE
+
+24/7 visibility.
+Remote access.
+Professional installation.
+
+The text should appear in an editorial layout on one side of the viewport.
+
+Keep the 3D object visible and dominant.
+
+==================================================
+SCENE 02 — VIDEO INTERCOM
+==================================================
+
+Camera travels downward / across the entrance toward a video intercom mounted beside the main entrance.
+
+The intercom screen wakes up.
+
+Add a subtle UI sequence around the device:
+
+Visitor Calling
+→
+Resident Connected
+→
+Access Granted
+
+Keep this animation elegant.
+
+Do not show any real manufacturer logo.
+
+The product must remain vendor-neutral.
+
+Overlay copy:
+
+VIDEO INTERCOM
+
+See.
+Communicate.
+Grant access.
+
+==================================================
+SCENE 03 — ACCESS CONTROL
+==================================================
+
+Camera moves toward an access-control reader beside the entrance.
+
+Animate:
+
+- reader idle
+- mobile credential or abstract credential approaches
+- blue status indicator
+- ACCESS GRANTED
+- door unlocks
+- glass entrance door opens
+
+Make the physical door animation visible.
+
+The viewer should understand that an electric strike / access-control system released the door.
+
+Overlay copy:
+
+ACCESS CONTROL
+
+Control who enters.
+When.
+And where.
+
+Make this one of the strongest moments of the experience.
+
+==================================================
+SCENE 04 — LOBBY
+==================================================
+
+The camera physically enters the building through the opening door.
+
+Create a simplified premium lobby using procedural geometry:
+
+- stone floor
+- reception desk
+- seating area
+- warm ceiling lighting
+- corridor extending deeper into the property
+- doorman/reception console
+
+No people are required.
+
+The doorman station can visually show a simplified connection:
+
+LOBBY
+→
+ENTRANCE
+→
+ACCESS GRANTED
+
+The message of this scene:
+
+IP.NET is not installing one isolated device.
+
+IP.NET integrates systems across the property.
+
+Overlay copy:
+
+BUILDING ENTRY SYSTEMS
+
+Connected entry.
+Centralized control.
+
+Keep copy secondary to the environment.
+
+==================================================
+SCENE 05 — NETWORKING / X-RAY TRANSITION
+==================================================
+
+This should be one of the signature moments of the website.
+
+Camera moves deeper into the building.
+
+As the user scrolls:
+
+- selected walls and architectural surfaces become slightly transparent
+- very thin technical cable paths become visible
+- lines show connections from:
+  CCTV
+  Intercom
+  Access Control
+  Wireless
+  to the network room
+
+Do not create hundreds of wires.
+
+Use only a few elegant lines.
+
+Blue accent may be used for active signal paths.
+
+The camera should begin following one of these paths through the building.
+
+It should feel like we are seeing "behind the walls."
+
+Do NOT make the whole building disappear.
+
+Keep enough architecture visible for spatial context.
+
+==================================================
+SCENE 06 — NETWORK / IT ROOM
+==================================================
+
+The camera arrives inside a dedicated network room.
+
+Create procedural placeholders for:
+
+- 19-inch rack
+- patch panels
+- PoE switches
+- NVR
+- access-control controller
+- cable management
+- network cabling
+- UPS / power equipment if useful
+
+The rack should visually read immediately as a professional network/security rack.
+
+Use low-poly geometry.
+
+Create small, subtle activity lights on network ports.
+
+The cable paths from the previous scene should terminate here.
+
+Overlay:
+
+NETWORK INFRASTRUCTURE
+
+The system behind the system.
+
+This scene should communicate competence in:
+
+- structured cabling
+- PoE
+- networking
+- CCTV infrastructure
+- access-control infrastructure
+
+==================================================
+SCENE 07 — WIRELESS
+==================================================
+
+One network path leaves the rack.
+
+Camera follows it back toward a corridor ceiling.
+
+Reveal a ceiling-mounted wireless access point.
+
+Use a subtle coverage visualization.
+
+Do not use giant radio-wave icons.
+
+Overlay:
+
+WI-FI & NETWORK INFRASTRUCTURE
+
+Connected throughout the property.
+
+Keep this scene shorter than the networking room scene.
+
+==================================================
+SCENE 08 — LOCKSMITH
+==================================================
+
+Change the pacing.
+
+Slow the movement slightly.
+
+Camera travels along the corridor toward a premium commercial/residential-style door.
+
+Move closer.
+
+Closer.
+
+Closer.
+
+Eventually the door lock fills much of the viewport.
+
+Create placeholder geometry for:
+
+- mortise lock
+- lever
+- cylinder
+- latch
+- door edge
+
+Animate the cylinder or handle subtly.
+
+Overlay:
+
+LOCKSMITH
+
+Residential
+Commercial
+Automotive
+
+24/7 Emergency Locksmith
+
+Locksmith must feel like a real and important division of the company, but it must NOT visually dominate the overall IP.NET brand.
+
+==================================================
+FINAL SCENE
+==================================================
+
+After the lock scene:
+
+Camera begins pulling backward.
+
+Move:
+
+Lock
+→ corridor
+→ lobby
+→ entrance
+→ exterior
+
+Then rise slightly outside the building.
+
+Return to a beautiful wide architectural view.
+
+Now visually reveal all system categories through extremely subtle highlights:
+
+CAMERAS
+ACCESS CONTROL
+INTERCOM
+NETWORKING
+DOOR SECURITY
+
+Do not cover the building in text.
+
+Use restrained indicators / labels.
+
+Final centered branding:
+
+IP.NET
+
+One company.
+One point of contact.
+Complete solution.
+
+Two CTAs only:
+
+REQUEST A QUOTE
+CALL NOW
+
+REQUEST A QUOTE should route to:
+
+#quote
+
+CALL NOW must use:
+
+process.env.NEXT_PUBLIC_BUSINESS_PHONE
+
+If the environment variable is missing, disable the actual tel link gracefully rather than inventing a phone number.
+
+==================================================
+PLACEHOLDER 3D ENVIRONMENT
+==================================================
+
+For this proof-of-concept, generate all environment geometry procedurally using React Three Fiber / Three.js primitives.
+
+Create reusable React components such as:
+
+BuildingExterior
+CCTVUnit
+Entrance
+Intercom
+AccessReader
+GlassDoor
+Lobby
+DoormanStation
+Corridor
+NetworkRoom
+NetworkRack
+PatchPanel
+PoESwitch
+NVR
+AccessControlPanel
+WirelessAccessPoint
+LocksmithDoor
+CablePath
+
+Do not spend excessive time modeling details.
+
+Focus on recognizable proportions and camera choreography.
+
+All major components must later support replacement by GLB models.
+
+Design the code so a component can be changed from procedural geometry to:
+
+useGLTF('/models/...glb')
+
+without rewriting the overall animation system.
+
+==================================================
+CAMERA SYSTEM
+==================================================
+
+Do NOT manually animate camera movement with dozens of arbitrary conditionals.
+
+Build a clean camera choreography system.
+
+Recommended approach:
+
+Create named camera waypoints:
+
+START_EXTERIOR
+CCTV_CLOSEUP
+INTERCOM_CLOSEUP
+ACCESS_READER
+DOOR_ENTRY
+LOBBY
+NETWORK_XRAY
+NETWORK_ROOM
+WIRELESS
+LOCKSMITH
+FINAL_PULLBACK
+
+Each waypoint should contain:
+
+position
+lookAt target
+optional FOV
+
+Interpolate between waypoints based on normalized scroll progress.
+
+Use smooth interpolation.
+
+Rotation should remain controlled using lookAt targets or quaternions.
+
+Avoid camera flips.
+
+Avoid sudden FOV changes.
+
+The route should feel intentional and cinematic.
+
+Create a camera-debug mode available via query parameter:
+
+?debug=1
+
+Debug mode should display:
+
+- current scroll progress
+- current scene
+- waypoint markers
+- camera coordinates
+- lookAt coordinates
+
+This will make future tuning much easier.
+
+==================================================
+SCENE STATE SYSTEM
+==================================================
+
+Create a central state/config file containing all scene ranges.
+
+Example structure:
+
+sceneConfig = [
+  {
+    id: "intro",
+    start: 0,
+    end: 0.08
+  },
+  ...
+]
+
+Do not scatter hard-coded progress values throughout different components.
+
+Create reusable helpers for:
+
+scene progress
+clamped progress
+inverse lerp
+smooth interpolation
+
+==================================================
+TEXT / HTML OVERLAYS
+==================================================
+
+All major service text must be HTML/CSS, NOT rendered as 3D text.
+
+Benefits:
+
+- SEO
+- accessibility
+- responsive design
+- sharp rendering
+- easier content updates
+
+Build a reusable SceneOverlay component.
+
+Each scene overlay should support:
+
+eyebrow
+headline
+body
+position
+progress-controlled opacity
+progress-controlled transform
+
+Use subtle animation:
+
+opacity
+translateY
+small blur transitions
+
+Avoid dramatic flying text.
+
+==================================================
+HEADER / NAVIGATION
+==================================================
+
+Add a minimal transparent/floating header.
+
+Left:
+IP.NET logo text placeholder
+
+Right:
+SERVICES
+INDUSTRIES
+WORK
+ABOUT
+CONTACT
+
+CTA:
+REQUEST A QUOTE
+
+Header should become visible after the intro.
+
+Do not make it large.
+
+Do not let it interfere with the cinematic experience.
+
+==================================================
+QUOTE SECTION
+==================================================
+
+After the full 3D scroll experience, add a normal HTML quote/contact section.
+
+ID:
+
+quote
+
+Headline:
+
+Tell us about your property.
+
+Fields:
+
+Name
+Company / Property
+Email
+Phone
+Service Needed
+Project Details
+
+Service options:
+
+Access Control
+CCTV / Cameras
+Video Intercom
+Networking
+Structured Cabling
+Locksmith
+Multiple Systems
+Other
+
+The form does not need a real backend yet.
+
+Create clean client-side validation.
+
+On submit, show a polished confirmation state.
+
+Keep the implementation structured so a backend/API endpoint can be added later.
+
+==================================================
+RESPONSIVE BEHAVIOR
+==================================================
+
+Desktop is the primary cinematic experience.
+
+Must support:
+
+1920x1080
+1440x900
+1366x768
+
+Also support:
+
+tablet
+mobile
+
+Mobile must NOT simply break the desktop experience.
+
+For mobile:
+
+- reduce geometry
+- simplify visual effects
+- reduce shadows
+- reduce coverage visualizations
+- maintain the same story order
+- adjust camera waypoints specifically for portrait orientation
+- keep text readable
+- avoid huge memory usage
+
+Use device pixel ratio caps.
+
+Recommended:
+
+desktop DPR max around 1.5
+mobile DPR max around 1–1.25
+
+Use adaptive quality where appropriate.
+
+==================================================
+PERFORMANCE
+==================================================
+
+Performance is critical.
+
+Implement:
+
+- lazy loading where appropriate
+- Suspense
+- efficient lighting
+- minimal dynamic shadows
+- object reuse
+- instancing if relevant
+- compressed-ready GLTF architecture
+- no giant texture dependencies
+- no unnecessary postprocessing
+
+Target:
+
+smooth modern desktop experience
+acceptable recent iPhone / Android performance
+
+Do not add expensive effects just because they look impressive.
+
+A polished simple experience is better than a laggy complex one.
+
+==================================================
+ACCESSIBILITY
+==================================================
+
+Support prefers-reduced-motion.
+
+If reduced motion is enabled:
+
+- significantly reduce camera movement
+- avoid aggressive transitions
+- allow service content to remain understandable
+
+Canvas must not prevent keyboard access to navigation or forms.
+
+Use semantic HTML.
+
+==================================================
+SEO / DOCUMENT STRUCTURE
+==================================================
+
+Even though the homepage is cinematic, it must remain a legitimate business website.
+
+Add:
+
+title
+description
+Open Graph placeholders
+semantic headings
+service copy present in HTML
+structured layout after the cinematic section
+
+Suggested title:
+
+IP.NET Security & Locksmith | Security, Access & Building Solutions
+
+Suggested description:
+
+Integrated access control, CCTV, video intercom, networking, structured cabling and locksmith services for properties throughout New York City.
+
+Do not invent addresses, phone numbers, reviews, certifications, or statistics.
+
+==================================================
+BRAND POSITIONING
+==================================================
+
+Very important:
+
+The company is NOT primarily a locksmith company.
+
+The brand should communicate:
+
+Complete Security, Entry & Building Solutions
+
+Services include:
+
+- Access Control
+- Video Intercom
+- CCTV / IP Cameras
+- Networking
+- Structured Cabling
+- Door Hardware
+- Locksmith
+
+Locksmith 24/7 applies only to locksmith services.
+
+Do not imply 24/7 availability for low-voltage/security installation.
+
+Primary audiences:
+
+- property managers
+- building owners
+- managed properties
+- commercial clients
+- residential locksmith customers
+
+NYC is the core service area.
+
+Do not fabricate service-area claims beyond provided content.
+
+==================================================
+PROJECT STRUCTURE
+==================================================
+
+Create a clean structure similar to:
+
+/app
+  /page.tsx
+  /layout.tsx
+
+/components
+  /three
+    Experience.tsx
+    CameraRig.tsx
+    BuildingExterior.tsx
+    Entrance.tsx
+    Lobby.tsx
+    NetworkRoom.tsx
+    LocksmithDoor.tsx
+    CablePaths.tsx
+    etc.
+
+  /ui
+    Header.tsx
+    SceneOverlay.tsx
+    QuoteForm.tsx
+    LoadingScreen.tsx
+
+/config
+  scenes.ts
+  cameraWaypoints.ts
+  brand.ts
+
+/lib
+  progress.ts
+  threeUtils.ts
+
+/public
+  /models
+  /textures
+  /images
+
+/styles
+
+Make sensible adjustments if Next.js conventions require them.
+
+==================================================
+LOADING EXPERIENCE
+==================================================
+
+Add a premium loading screen.
+
+Black background.
+
+Small:
+
+IP.NET
+
+Then:
+
+Preparing building systems…
+
+Include a restrained progress indicator.
+
+No fake long delay.
+
+Hide it as soon as the experience is ready.
+
+==================================================
+FUTURE ASSET REPLACEMENT
+==================================================
+
+Create documentation explaining where these final assets will eventually go:
+
+/public/models/building.glb
+/public/models/cctv.glb
+/public/models/intercom.glb
+/public/models/access-reader.glb
+/public/models/network-rack.glb
+/public/models/access-point.glb
+/public/models/lock.glb
+
+Create clear comments in relevant components:
+
+// FUTURE GLB REPLACEMENT POINT
+
+Do not require these files to exist for the POC to run.
+
+==================================================
+CODE QUALITY
+==================================================
+
+Use TypeScript properly.
+
+Avoid:
+
+any
+monolithic components
+duplicate animation code
+magic numbers scattered everywhere
+
+Add comments only where they help explain:
+
+camera choreography
+scene progress
+future GLB replacement
+performance decisions
+
+Do not over-comment obvious JSX.
+
+==================================================
+DEVELOPMENT WORKFLOW
+==================================================
+
+You are responsible for implementing the project.
+
+Do NOT only give me instructions.
+
+Do NOT return a tutorial instead of building.
+
+Create/edit the files.
+
+Install required packages.
+
+Run the project.
+
+Fix build errors.
+
+Run:
+
+npm run build
+
+Resolve TypeScript and build errors.
+
+If linting is configured, run it and fix important issues.
+
+Do not stop at the first error.
+
+==================================================
+DESIGN REVIEW CRITERIA
+==================================================
+
+Before declaring the task complete, verify:
+
+1. Does scrolling move the camera through one continuous building experience?
+
+2. Can I clearly identify:
+   CCTV
+   Intercom
+   Access Control
+   Lobby
+   Network Room
+   Wireless
+   Locksmith?
+
+3. Does the building entrance physically open?
+
+4. Does the networking transition visually connect systems to the network room?
+
+5. Does the final pullback return outside?
+
+6. Is the final IP.NET CTA visible?
+
+7. Can the experience reverse when scrolling upward?
+
+8. Is the interface visually premium and restrained?
+
+9. Does it avoid looking like a generic AI template?
+
+10. Does the site build successfully?
+
+==================================================
+IMPORTANT CREATIVE RULES
+==================================================
+
+Do not add:
+
+- generic service-card grid before the experience
+- stock photos
+- testimonials
+- fake reviews
+- fake client logos
+- fake statistics
+- random floating icons
+- giant gradients
+- excessive glassmorphism
+- generic AI SaaS design
+- neon cyberpunk visuals
+
+Favor:
+
+architecture
+space
+typography
+camera movement
+restraint
+precision
+lighting
+system visualization
+
+==================================================
+FINAL DELIVERABLE
+==================================================
+
+At completion I want:
+
+1. A fully working local website.
+2. A functioning scroll-driven 3D journey.
+3. All described scenes represented.
+4. Responsive desktop/mobile behavior.
+5. Clean project architecture.
+6. Successful production build.
+7. README containing:
+   - how to run the project
+   - technology stack
+   - where to place future GLB files
+   - how camera waypoints work
+   - how scene ranges work
+   - how to adjust scene timing
+   - how to update copy
+   - how to configure NEXT_PUBLIC_BUSINESS_PHONE
+
+Do not wait for final production 3D assets.
+
+Build the full interactive prototype now using procedural placeholder geometry.
+
+Make reasonable creative and technical decisions when something is unspecified.
+
+Do not repeatedly ask me for confirmation.
+
+The goal of this first version is to give me a COMPLETE INTERACTIVE PROTOTYPE that I can open in my browser, scroll through, evaluate visually, and then progressively replace placeholder geometry with premium AI-generated 3D assets.
