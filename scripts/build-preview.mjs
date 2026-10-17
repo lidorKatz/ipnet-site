@@ -15,6 +15,7 @@ for(const file of ["archivo-600.woff2","instrument-400.woff2","instrument-500.wo
 }
 const script=result.outputFiles[0].text.replaceAll("</script","<\\/script");
 const licenses=await Promise.all(["archivo","instrument-sans","ibm-plex-mono"].map(name=>readFile("public/fonts/"+name+"-LICENSE.txt","utf8")));
+licenses.push(await readFile("public/third-party-notices.txt","utf8"));
 const html='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#090d12"><title>IP NET Security &amp; Locksmith — Website Review</title><style>'+css+'</style></head><body><a class="skip-link" href="#services">Skip the journey — explore our services</a><div id="root"></div><script>window.__IPNET_ASSETS__='+JSON.stringify(assets)+';</script><script>'+script+'</script><script type="text/plain" id="font-licenses">'+licenses.join("\n")+'</script></body></html>';
 await mkdir("preview",{recursive:true});await writeFile("preview/IP-NET-Website-Review.html",html);
 console.log(JSON.stringify({review:"preview/IP-NET-Website-Review.html",bytes:Buffer.byteLength(html),embeddedAssets:Object.keys(assets).length,complete:manifest.complete}));

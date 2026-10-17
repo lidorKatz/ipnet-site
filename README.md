@@ -64,6 +64,7 @@ After committing the finished source and assets, run
 `python3 scripts/package-delivery.py` to create source, static-site and holding-page
 ZIPs plus the standalone review in `delivery/`. The packager refuses incomplete
 frames, stale exported assets or uncommitted source.
+Packaging also uses FFmpeg to create a short scene-only MP4 review.
 
 See [DEPLOYMENT.md](docs/DEPLOYMENT.md) for domain and hosting instructions and
 [RECOVERY.md](docs/RECOVERY.md) for the confirmed brief and recovery history.

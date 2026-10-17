@@ -28,10 +28,12 @@ with zipfile.ZipFile(dest/"IP-NET-Static-Site.zip","w",zipfile.ZIP_DEFLATED,comp
 with zipfile.ZipFile(dest/"IP-NET-Coming-Soon.zip","w",zipfile.ZIP_DEFLATED) as archive:
     archive.write(root/"holding/index.html","index.html")
 shutil.copy2(root/"preview/IP-NET-Website-Review.html",dest/"IP-NET-Website-Review.html")
+subprocess.run(["ffmpeg","-y","-loglevel","error","-framerate","12","-start_number","0","-i",str(root/"public/journey/frames/frame-%03d.webp"),"-frames:v",str(len(manifest["frames"])),"-c:v","libx264","-preset","medium","-crf","20","-threads","2","-pix_fmt","yuv420p","-movflags","+faststart",str(dest/"IP-NET-3D-Journey.mp4")],check=True)
 (dest/"START-HERE.txt").write_text("""IP NET SECURITY & LOCKSMITH
 
 לצפייה: הורידו את IP-NET-Website-Review.html ופתחו בדפדפן.
 זהו קובץ עצמאי עם העיצוב, התמונות והאינטראקציות. אין צורך בהתקנה.
+IP-NET-3D-Journey.mp4 הוא סרטון קצר של סצנת התלת־ממד בלבד.
 
 IP-NET-Static-Site.zip — קובצי האתר להעלאה לאחסון סטטי.
 IP-NET-Source.zip — קוד המקור, סצנת Blender, נכסים והוראות פיתוח.
