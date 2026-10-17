@@ -1,5 +1,5 @@
 {
-  "complete": false,
+  "complete": true,
   "frames": [
     {
       "src": "/journey/frames/frame-000.webp",
@@ -608,9 +608,111 @@
       "samples": 16
     },
     {
+      "src": "/journey/frames/frame-101.webp",
+      "progress": 0.8487394957983193,
+      "sha256": "20ba7b7eba1b53e6e55acfb9e56c0f032dca7ec0a6912a77aac7f82809376967",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-102.webp",
+      "progress": 0.8571428571428571,
+      "sha256": "2442ea1f65839c1b5069f9fed83339d16bc9a4e10ed53adb2939853cdb8b1be2",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-103.webp",
+      "progress": 0.865546218487395,
+      "sha256": "4c5209ef0fca54fdb6c20f5cce2e1bb3e47c2b55842ef6eafec642fdc50dca13",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-104.webp",
+      "progress": 0.8739495798319328,
+      "sha256": "3bd28da80d7ae464a149a05c9242dbf6573fa76f55e28ae2c4531276e89a9021",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-105.webp",
+      "progress": 0.8823529411764706,
+      "sha256": "42468e125f785a47dafc63bdc9a381562d589e26d5827ab9ccd9fbf09279a402",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-106.webp",
+      "progress": 0.8907563025210085,
+      "sha256": "c8456ea495d87db0e5350ad4f08dd6d98db3dc77b9dd23357679394543b316d4",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-107.webp",
+      "progress": 0.8991596638655462,
+      "sha256": "db4db9135f2a2f02a16f79287e0c2deb7e80eb34b43d25ed688b681f2d77a5fd",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-108.webp",
+      "progress": 0.907563025210084,
+      "sha256": "bc302322586af704d5b4584f132d9e2fe830fb999b2fe1c45b26cda8d783079b",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-109.webp",
+      "progress": 0.9159663865546218,
+      "sha256": "0ea9af9fd58cdff86f4483e1668c4f8ef258fc5f4fd98c4861fac0eeb94d6290",
+      "samples": 16
+    },
+    {
       "src": "/journey/frames/frame-110.webp",
       "progress": 0.9243697478991597,
       "sha256": "e609342c2301ae5b5e2b3749f20da34de40140020ceaf00e52afa46300adb458",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-111.webp",
+      "progress": 0.9327731092436975,
+      "sha256": "b281344bf4b209d6bb826ef117d531f8991d436cce84fb1e34becfadbfb8b5f3",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-112.webp",
+      "progress": 0.9411764705882353,
+      "sha256": "2e56c1b098bc7cf8681b984e055289cbe066b9e26186dcfd73937b46f76a884c",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-113.webp",
+      "progress": 0.9495798319327731,
+      "sha256": "58848e7e2f1e2132977b0333b396347d2e488a364f3f4e44f2b4fd997768bccb",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-114.webp",
+      "progress": 0.957983193277311,
+      "sha256": "54f81daba56cd9eedb8006dbaf65eaa0b8178569cc23c037463afc986c1163ec",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-115.webp",
+      "progress": 0.9663865546218487,
+      "sha256": "b6ba39467f5cde970e96cee3bf11fe2e66784c850ef2e79210ce59a52132ab9d",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-116.webp",
+      "progress": 0.9747899159663865,
+      "sha256": "1d7757e4b3ce7c372463251e16ed1cb429abce50aaa16818e21dadf1496beefa",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-117.webp",
+      "progress": 0.9831932773109243,
+      "sha256": "0f5de98d5231e7dad99f0a9cb1bac041a9eb0b558ffd801b31d4d4432448ab4f",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-118.webp",
+      "progress": 0.9915966386554622,
+      "sha256": "56ac67992222f2bc3021d408862ff2e47d3b1e34cc4fa0256cf32859736ee310",
       "samples": 16
     },
     {
@@ -624,5 +726,5 @@
   "width": 960,
   "height": 640,
   "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
-  "totalFrameBytes": 2051466
+  "totalFrameBytes": 2271406
 }

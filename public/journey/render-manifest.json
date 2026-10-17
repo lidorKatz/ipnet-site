@@ -1,0 +1,2892 @@
+{
+  "authorship": "Original illustrative 3D property; not a client installation.",
+  "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+  "frameCount": 120,
+  "resolution": [
+    960,
+    640
+  ],
+  "frames": [
+    {
+      "progress": 0.0,
+      "position": [
+        9,
+        2.5,
+        17.0
+      ],
+      "lookAt": [
+        0,
+        2.4,
+        5.0
+      ],
+      "fov": 44,
+      "doorOpening": 0,
+      "seconds": 20.04,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-000.png"
+    },
+    {
+      "progress": 0.14285714285714285,
+      "position": [
+        -3.9073342790526704,
+        3.151116085942798,
+        7.660682536881064
+      ],
+      "lookAt": [
+        -3.4,
+        3.05,
+        6.3
+      ],
+      "fov": 40.01275526791769,
+      "doorOpening": 0,
+      "seconds": 23.82,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-017.png"
+    },
+    {
+      "progress": 0.2605042016806723,
+      "position": [
+        -2.2068450423680703,
+        1.805476033894456,
+        7.509583059315298
+      ],
+      "lookAt": [
+        -1.8,
+        1.65,
+        6.3
+      ],
+      "fov": 43.02738016947228,
+      "doorOpening": 0,
+      "seconds": 21.84,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-031.png"
+    },
+    {
+      "progress": 0.37815126050420167,
+      "position": [
+        1.0446101140516624,
+        1.7,
+        7.532375945380074
+      ],
+      "lookAt": [
+        1.6143974489889328,
+        1.486042533012546,
+        6.0331214586125546
+      ],
+      "fov": 43.402835534169725,
+      "doorOpening": 0.14418339911377356,
+      "seconds": 25.78,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-045.png"
+    },
+    {
+      "progress": 0.48739495798319327,
+      "position": [
+        0.0,
+        1.7,
+        2.028555872285752
+      ],
+      "lookAt": [
+        -3.1327017312115157,
+        1.2021966055604425,
+        -2.082976306906571
+      ],
+      "fov": 51.0,
+      "doorOpening": 1,
+      "seconds": 25.91,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-058.png"
+    },
+    {
+      "progress": 0.6050420168067226,
+      "position": [
+        2.4713213693911764,
+        2.0971321369391176,
+        -4.446944533373677
+      ],
+      "lookAt": [
+        5.851246327965001,
+        1.8985660684695587,
+        -10.654114191025881
+      ],
+      "fov": 53.0,
+      "doorOpening": 1,
+      "seconds": 28.67,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-072.png"
+    },
+    {
+      "progress": 0.7394957983193278,
+      "position": [
+        5.717857959129492,
+        1.5667697604541782,
+        -9.280435279470126
+      ],
+      "lookAt": [
+        6.145188997161387,
+        1.4545017214760785,
+        -11.060251996215182
+      ],
+      "fov": 44.19564720529874,
+      "doorOpening": 1,
+      "seconds": 24.57,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-088.png"
+    },
+    {
+      "progress": 0.8319327731092437,
+      "position": [
+        2.5,
+        2.5398703645790706,
+        -7.5250261580987665
+      ],
+      "lookAt": [
+        2.505958609071135,
+        3.3542588088126974,
+        -6.294146023323931
+      ],
+      "fov": 46.03575165442681,
+      "doorOpening": 1,
+      "seconds": 26.0,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-099.png"
+    },
+    {
+      "progress": 0.9243697478991597,
+      "position": [
+        2.9912235047256672,
+        1.3183525708850028,
+        -13.070472192831655
+      ],
+      "lookAt": [
+        3.02,
+        1.23,
+        -14.05
+      ],
+      "fov": 43.48940189026674,
+      "doorOpening": 1,
+      "seconds": 23.95,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-110.png"
+    },
+    {
+      "progress": 1.0,
+      "position": [
+        11,
+        6.5,
+        19.0
+      ],
+      "lookAt": [
+        0,
+        4.0,
+        3
+      ],
+      "fov": 45,
+      "doorOpening": 0,
+      "seconds": 17.48,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-119.png"
+    },
+    {
+      "progress": 0.008403361344537815,
+      "position": [
+        8.816814410395018,
+        2.4771018012993773,
+        16.68858449767153
+      ],
+      "lookAt": [
+        0.0,
+        2.3633628820790036,
+        5.082433515322242
+      ],
+      "fov": 44.091592794802494,
+      "doorOpening": 0,
+      "seconds": 20.53,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-001.png"
+    },
+    {
+      "progress": 0.01680672268907563,
+      "position": [
+        8.371451364782338,
+        2.4214314205977923,
+        15.931467320129974
+      ],
+      "lookAt": [
+        0.0,
+        2.2742902729564674,
+        5.282846885847948
+      ],
+      "fov": 44.314274317608835,
+      "doorOpening": 0,
+      "seconds": 19.43,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-002.png"
+    },
+    {
+      "progress": 0.025210084033613446,
+      "position": [
+        7.820201447965356,
+        2.3525251809956695,
+        14.994342461541105
+      ],
+      "lookAt": [
+        0.0,
+        2.1640402895930713,
+        5.53090934841559
+      ],
+      "fov": 44.58989927601732,
+      "doorOpening": 0,
+      "seconds": 19.64,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-003.png"
+    },
+    {
+      "progress": 0.03361344537815126,
+      "position": [
+        7.31935524474747,
+        2.2899194055934338,
+        14.142903916070699
+      ],
+      "lookAt": [
+        0.0,
+        2.063871048949494,
+        5.756290139863639
+      ],
+      "fov": 44.840322377626265,
+      "doorOpening": 0,
+      "seconds": 20.4,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-004.png"
+    },
+    {
+      "progress": 0.04201680672268908,
+      "position": [
+        7.025203339932077,
+        2.2531504174915096,
+        13.64284567788453
+      ],
+      "lookAt": [
+        0.0,
+        2.0050406679864152,
+        5.8886584970305655
+      ],
+      "fov": 44.98739833003396,
+      "doorOpening": 0,
+      "seconds": 23.0,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-005.png"
+    },
+    {
+      "progress": 0.05042016806722689,
+      "position": [
+        6.148351856346618,
+        2.3306484984520246,
+        13.432251123219789
+      ],
+      "lookAt": [
+        -0.2193639157895073,
+        2.0677447386997008,
+        5.925807519504648
+      ],
+      "fov": 44.93548120123838,
+      "doorOpening": 0,
+      "seconds": 20.85,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-006.png"
+    },
+    {
+      "progress": 0.058823529411764705,
+      "position": [
+        2.4492339298546915,
+        2.6809437566425482,
+        12.703636986183499
+      ],
+      "lookAt": [
+        -1.172167018067731,
+        2.3619927555797404,
+        6.037902002125616
+      ],
+      "fov": 44.65524499468596,
+      "doorOpening": 0,
+      "seconds": 21.47,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-007.png"
+    },
+    {
+      "progress": 0.06722689075630252,
+      "position": [
+        -2.2090377207737983,
+        3.1220679659823674,
+        11.786098630756676
+      ],
+      "lookAt": [
+        -2.372024867472039,
+        2.7325370914251885,
+        6.179061749114357
+      ],
+      "fov": 44.30234562721411,
+      "doorOpening": 0,
+      "seconds": 25.25,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-008.png"
+    },
+    {
+      "progress": 0.07563025210084033,
+      "position": [
+        -5.634111726083853,
+        3.446412095273092,
+        11.111462841831969
+      ],
+      "lookAt": [
+        -3.2542408991428107,
+        3.0049861600293974,
+        6.28285187048739
+      ],
+      "fov": 44.04287032378153,
+      "doorOpening": 0,
+      "seconds": 23.3,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-009.png"
+    },
+    {
+      "progress": 0.08403361344537816,
+      "position": [
+        -6.174528075033326,
+        3.4961238375050714,
+        10.96289958754854
+      ],
+      "lookAt": [
+        -3.4,
+        3.05,
+        6.3
+      ],
+      "fov": 43.95570100005796,
+      "doorOpening": 0,
+      "seconds": 21.7,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-010.png"
+    },
+    {
+      "progress": 0.09243697478991597,
+      "position": [
+        -5.979611923846498,
+        3.4664626840635977,
+        10.678999976037291
+      ],
+      "lookAt": [
+        -3.4,
+        3.05,
+        6.3
+      ],
+      "fov": 43.61671638929826,
+      "doorOpening": 0,
+      "seconds": 22.65,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-011.png"
+    },
+    {
+      "progress": 0.10084033613445378,
+      "position": [
+        -5.642308389591531,
+        3.4151338853726245,
+        10.187710045709405
+      ],
+      "lookAt": [
+        -3.4,
+        3.05,
+        6.3
+      ],
+      "fov": 43.030101547115706,
+      "doorOpening": 0,
+      "seconds": 23.4,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-012.png"
+    },
+    {
+      "progress": 0.1092436974789916,
+      "position": [
+        -5.222256166747227,
+        3.3512128949397955,
+        9.575894851566613
+      ],
+      "lookAt": [
+        -3.4,
+        3.05,
+        6.3
+      ],
+      "fov": 42.29957594216909,
+      "doorOpening": 0,
+      "seconds": 23.2,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-013.png"
+    },
+    {
+      "progress": 0.11764705882352941,
+      "position": [
+        -4.7790939497923866,
+        3.2837751662727546,
+        8.93041944861065
+      ],
+      "lookAt": [
+        -3.4,
+        3.05,
+        6.3
+      ],
+      "fov": 41.528859043117194,
+      "doorOpening": 0,
+      "seconds": 22.77,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-014.png"
+    },
+    {
+      "progress": 0.12605042016806722,
+      "position": [
+        -4.372460433205812,
+        3.2218961528791454,
+        8.338148891843248
+      ],
+      "lookAt": [
+        -3.4,
+        3.05,
+        6.3
+      ],
+      "fov": 40.82167031861881,
+      "doorOpening": 0,
+      "seconds": 25.69,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-015.png"
+    },
+    {
+      "progress": 0.13445378151260504,
+      "position": [
+        -4.061994311466306,
+        3.1746513082666117,
+        7.885948236266142
+      ],
+      "lookAt": [
+        -3.4,
+        3.05,
+        6.3
+      ],
+      "fov": 40.281729237332705,
+      "doorOpening": 0,
+      "seconds": 23.64,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-016.png"
+    },
+    {
+      "progress": 0.15126050420168066,
+      "position": [
+        -3.856895579435564,
+        3.115875667053155,
+        7.6697561927587
+      ],
+      "lookAt": [
+        -3.3425274392474185,
+        2.9997115093414912,
+        6.3
+      ],
+      "fov": 40.179601752351815,
+      "doorOpening": 0,
+      "seconds": 23.88,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-018.png"
+    },
+    {
+      "progress": 0.15966386554621848,
+      "position": [
+        -3.6895828154366663,
+        2.983419728887361,
+        7.746441209591528
+      ],
+      "lookAt": [
+        -3.1194437539155553,
+        2.8045132846761107,
+        6.3
+      ],
+      "fov": 40.87673826901389,
+      "doorOpening": 0,
+      "seconds": 23.25,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-019.png"
+    },
+    {
+      "progress": 0.16806722689075632,
+      "position": [
+        -3.443816111551355,
+        2.7888544216448223,
+        7.859084282205629
+      ],
+      "lookAt": [
+        -2.791754815401806,
+        2.51778546347658,
+        6.3
+      ],
+      "fov": 41.90076620186935,
+      "doorOpening": 0,
+      "seconds": 22.86,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-020.png"
+    },
+    {
+      "progress": 0.17647058823529413,
+      "position": [
+        -3.170956475888575,
+        2.5728405434117887,
+        7.984144948551069
+      ],
+      "lookAt": [
+        -2.4279419678514333,
+        2.199449221870004,
+        6.3
+      ],
+      "fov": 43.03768135046427,
+      "doorOpening": 0,
+      "seconds": 22.64,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-021.png"
+    },
+    {
+      "progress": 0.18487394957983194,
+      "position": [
+        -2.9223649165572723,
+        2.376038892274507,
+        8.098082746577916
+      ],
+      "lookAt": [
+        -2.096486555409696,
+        1.909425735983484,
+        6.3
+      ],
+      "fov": 44.0734795143447,
+      "doorOpening": 0,
+      "seconds": 22.28,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-022.png"
+    },
+    {
+      "progress": 0.19327731092436976,
+      "position": [
+        -2.749402441666391,
+        2.2391102663192264,
+        8.177357214236237
+      ],
+      "lookAt": [
+        -1.8658699222218542,
+        1.7076361819441224,
+        6.3
+      ],
+      "fov": 44.794156493056704,
+      "doorOpening": 0,
+      "seconds": 23.06,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-023.png"
+    },
+    {
+      "progress": 0.20168067226890757,
+      "position": [
+        -2.6990144489655155,
+        2.1992115591724124,
+        8.19862022855172
+      ],
+      "lookAt": [
+        -1.8,
+        1.65,
+        6.3
+      ],
+      "fov": 44.99605779586206,
+      "doorOpening": 0,
+      "seconds": 23.02,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-024.png"
+    },
+    {
+      "progress": 0.21008403361344538,
+      "position": [
+        -2.6676317468183095,
+        2.174105397454648,
+        8.154684445545632
+      ],
+      "lookAt": [
+        -1.8,
+        1.65,
+        6.3
+      ],
+      "fov": 44.87052698727324,
+      "doorOpening": 0,
+      "seconds": 21.81,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-025.png"
+    },
+    {
+      "progress": 0.2184873949579832,
+      "position": [
+        -2.60166508434019,
+        2.121332067472152,
+        8.062331118076266
+      ],
+      "lookAt": [
+        -1.8,
+        1.65,
+        6.3
+      ],
+      "fov": 44.60666033736076,
+      "doorOpening": 0,
+      "seconds": 22.77,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-026.png"
+    },
+    {
+      "progress": 0.226890756302521,
+      "position": [
+        -2.5140793951135043,
+        2.0512635160908035,
+        7.939711153158905
+      ],
+      "lookAt": [
+        -1.8,
+        1.65,
+        6.3
+      ],
+      "fov": 44.25631758045402,
+      "doorOpening": 0,
+      "seconds": 21.28,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-027.png"
+    },
+    {
+      "progress": 0.23529411764705882,
+      "position": [
+        -2.4178396127206017,
+        1.9742716901764812,
+        7.804975457808841
+      ],
+      "lookAt": [
+        -1.8,
+        1.65,
+        6.3
+      ],
+      "fov": 43.871358450882404,
+      "doorOpening": 0,
+      "seconds": 21.03,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-028.png"
+    },
+    {
+      "progress": 0.24369747899159663,
+      "position": [
+        -2.3259106707438293,
+        1.9007285365950635,
+        7.6762749390413605
+      ],
+      "lookAt": [
+        -1.8,
+        1.65,
+        6.3
+      ],
+      "fov": 43.50364268297532,
+      "doorOpening": 0,
+      "seconds": 20.87,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-029.png"
+    },
+    {
+      "progress": 0.25210084033613445,
+      "position": [
+        -2.251257502765536,
+        1.8410060022124288,
+        7.57176050387175
+      ],
+      "lookAt": [
+        -1.8,
+        1.65,
+        6.3
+      ],
+      "fov": 43.20503001106214,
+      "doorOpening": 0,
+      "seconds": 21.33,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-030.png"
+    },
+    {
+      "progress": 0.2689075630252101,
+      "position": [
+        -2.1531151440089418,
+        1.8010655649088878,
+        7.519180168359979
+      ],
+      "lookAt": [
+        -1.7381972352845139,
+        1.6468033052733368,
+        6.3
+      ],
+      "fov": 43.063933894533264,
+      "doorOpening": 0,
+      "seconds": 21.39,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-032.png"
+    },
+    {
+      "progress": 0.2773109243697479,
+      "position": [
+        -1.7961225720665674,
+        1.8091790324530326,
+        7.665222584154586
+      ],
+      "lookAt": [
+        -1.2676161177241112,
+        1.6224629026409023,
+        6.3
+      ],
+      "fov": 43.550741947181955,
+      "doorOpening": 0,
+      "seconds": 23.48,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-033.png"
+    },
+    {
+      "progress": 0.2857142857142857,
+      "position": [
+        -1.2306774326426648,
+        1.8220300583490303,
+        7.896541050282546
+      ],
+      "lookAt": [
+        -0.5222566157562396,
+        1.5839098249529089,
+        6.3
+      ],
+      "fov": 44.32180350094182,
+      "doorOpening": 0,
+      "seconds": 25.32,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-034.png"
+    },
+    {
+      "progress": 0.29411764705882354,
+      "position": [
+        -0.6286993690209643,
+        1.8357113779767964,
+        8.142804803582333
+      ],
+      "lookAt": [
+        0.27125992265418364,
+        1.542865866069611,
+        6.3
+      ],
+      "fov": 45.14268267860778,
+      "doorOpening": 0,
+      "seconds": 26.65,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-035.png"
+    },
+    {
+      "progress": 0.3025210084033613,
+      "position": [
+        -0.16210802448520978,
+        1.8463157267162453,
+        8.333683080892415
+      ],
+      "lookAt": [
+        0.8863121495422235,
+        1.5110528198512643,
+        6.3
+      ],
+      "fov": 45.778943602974714,
+      "doorOpening": 0,
+      "seconds": 26.13,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-036.png"
+    },
+    {
+      "progress": 0.31092436974789917,
+      "position": [
+        0.0007752098477662191,
+        1.8498942895662138,
+        8.399400974208545
+      ],
+      "lookAt": [
+        1.1004228417351454,
+        1.4999859052754951,
+        6.3
+      ],
+      "fov": 45.99788579132427,
+      "doorOpening": 0,
+      "seconds": 24.46,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-037.png"
+    },
+    {
+      "progress": 0.31932773109243695,
+      "position": [
+        0.07148998996533827,
+        1.8402513650047267,
+        8.344757735026784
+      ],
+      "lookAt": [
+        1.1389945399810937,
+        1.4987001820006303,
+        6.3
+      ],
+      "fov": 45.80502730009453,
+      "doorOpening": 0,
+      "seconds": 24.87,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-038.png"
+    },
+    {
+      "progress": 0.3277310924369748,
+      "position": [
+        0.2314149474806126,
+        1.8184434162526437,
+        8.221179358764982
+      ],
+      "lookAt": [
+        1.2262263349894251,
+        1.4957924555003526,
+        6.3
+      ],
+      "fov": 45.36886832505287,
+      "doorOpening": 0,
+      "seconds": 26.49,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-039.png"
+    },
+    {
+      "progress": 0.33613445378151263,
+      "position": [
+        0.4442857826384256,
+        1.7894155750947602,
+        8.056688258870308
+      ],
+      "lookAt": [
+        1.3423376996209595,
+        1.4919220766793013,
+        6.3
+      ],
+      "fov": 44.7883115018952,
+      "doorOpening": 0,
+      "seconds": 25.9,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-040.png"
+    },
+    {
+      "progress": 0.3445378151260504,
+      "position": [
+        0.6738381956836123,
+        1.7581129733158711,
+        7.879306848789936
+      ],
+      "lookAt": [
+        1.4675481067365157,
+        1.487748396442116,
+        6.3
+      ],
+      "fov": 44.16225946631742,
+      "doorOpening": 0,
+      "seconds": 22.88,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-041.png"
+    },
+    {
+      "progress": 0.35294117647058826,
+      "position": [
+        0.8838078868610119,
+        1.729480742700771,
+        7.7170575419710365
+      ],
+      "lookAt": [
+        1.5820770291969155,
+        1.4839307656934362,
+        6.3
+      ],
+      "fov": 43.58961485401542,
+      "doorOpening": 0,
+      "seconds": 22.49,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-042.png"
+    },
+    {
+      "progress": 0.36134453781512604,
+      "position": [
+        1.037930556415459,
+        1.7084640150342556,
+        7.5979627518607815
+      ],
+      "lookAt": [
+        1.6661439398629776,
+        1.4811285353379007,
+        6.3
+      ],
+      "fov": 43.16928030068511,
+      "doorOpening": 0,
+      "seconds": 21.81,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-043.png"
+    },
+    {
+      "progress": 0.3697478991596639,
+      "position": [
+        1.0999419045917924,
+        1.7000079221011193,
+        7.550044891906342
+      ],
+      "lookAt": [
+        1.6999683115955229,
+        1.480001056280149,
+        6.3
+      ],
+      "fov": 43.00015844202238,
+      "doorOpening": 0.02106963598196279,
+      "seconds": 21.27,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-044.png"
+    },
+    {
+      "progress": 0.3865546218487395,
+      "position": [
+        0.8949914705268054,
+        1.7,
+        7.484770013349438
+      ],
+      "lookAt": [
+        1.383168636268699,
+        1.5023645668516212,
+        5.312231630720062
+      ],
+      "fov": 44.49097112344142,
+      "doorOpening": 0.340379596700605,
+      "seconds": 23.6,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-046.png"
+    },
+    {
+      "progress": 0.3949579831932773,
+      "position": [
+        0.6873499473936884,
+        1.7,
+        7.418702255988901
+      ],
+      "lookAt": [
+        1.0622681005175183,
+        1.525016369375234,
+        4.311777019260498
+      ],
+      "fov": 46.001091291682265,
+      "doorOpening": 0.5668573886516672,
+      "seconds": 24.89,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-047.png"
+    },
+    {
+      "progress": 0.40336134453781514,
+      "position": [
+        0.457949844407472,
+        1.7,
+        7.34571131412965
+      ],
+      "lookAt": [
+        0.7077406686297294,
+        1.5500418351555485,
+        3.2064856139632743
+      ],
+      "fov": 47.66945567703657,
+      "doorOpening": 0.7808159348761754,
+      "seconds": 24.96,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-048.png"
+    },
+    {
+      "progress": 0.4117647058823529,
+      "position": [
+        0.24305546132332256,
+        1.7,
+        7.277335828602875
+      ],
+      "lookAt": [
+        0.3756311674996802,
+        1.5734848587647285,
+        2.171085404557827
+      ],
+      "fov": 49.232323917648564,
+      "doorOpening": 0.9394543952833396,
+      "seconds": 24.73,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-049.png"
+    },
+    {
+      "progress": 0.42016806722689076,
+      "position": [
+        0.07893109789639996,
+        1.7,
+        7.225114440239764
+      ],
+      "lookAt": [
+        0.12198442402170917,
+        1.5913893347749382,
+        1.3803043807735635
+      ],
+      "fov": 50.42595565166255,
+      "doorOpening": 1,
+      "seconds": 26.27,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-050.png"
+    },
+    {
+      "progress": 0.42857142857142855,
+      "position": [
+        0.0018410538818702804,
+        1.7,
+        7.200585789871504
+      ],
+      "lookAt": [
+        0.0028452650901631404,
+        1.5997991577583415,
+        1.0088705323399205
+      ],
+      "fov": 50.98661051722276,
+      "doorOpening": 1,
+      "seconds": 27.16,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-051.png"
+    },
+    {
+      "progress": 0.4369747899159664,
+      "position": [
+        0.0,
+        1.7,
+        7.005530349669389
+      ],
+      "lookAt": [
+        -0.11780373048873556,
+        1.5850407961284145,
+        0.8840661699952126
+      ],
+      "fov": 51.0,
+      "doorOpening": 1,
+      "seconds": 25.44,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-052.png"
+    },
+    {
+      "progress": 0.44537815126050423,
+      "position": [
+        0.0,
+        1.7,
+        6.350323025898443
+      ],
+      "lookAt": [
+        -0.5147081670038278,
+        1.5346402327614188,
+        0.4934618039009948
+      ],
+      "fov": 51.0,
+      "doorOpening": 1,
+      "seconds": 23.61,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-053.png"
+    },
+    {
+      "progress": 0.453781512605042,
+      "position": [
+        0.0,
+        1.7,
+        5.396825352868669
+      ],
+      "lookAt": [
+        -1.0923077189353254,
+        1.4612942579129746,
+        -0.07496950117444712
+      ],
+      "fov": 51.0,
+      "doorOpening": 1,
+      "seconds": 23.47,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-054.png"
+    },
+    {
+      "progress": 0.46218487394957986,
+      "position": [
+        0.0,
+        1.7,
+        4.316468565786282
+      ],
+      "lookAt": [
+        -1.7467546188025407,
+        1.378189889675868,
+        -0.7190283550120242
+      ],
+      "fov": 51.0,
+      "doorOpening": 1,
+      "seconds": 23.19,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-055.png"
+    },
+    {
+      "progress": 0.47058823529411764,
+      "position": [
+        0.0,
+        1.7,
+        3.2806838998575203
+      ],
+      "lookAt": [
+        -2.3742010991247713,
+        1.2985141461428862,
+        -1.3365153673926322
+      ],
+      "fov": 51.0,
+      "doorOpening": 1,
+      "seconds": 23.34,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-056.png"
+    },
+    {
+      "progress": 0.4789915966386555,
+      "position": [
+        0.0,
+        1.7,
+        2.4609025902885993
+      ],
+      "lookAt": [
+        -2.8707993924213295,
+        1.2354540454068152,
+        -1.8252311480971817
+      ],
+      "fov": 51.0,
+      "doorOpening": 1,
+      "seconds": 22.68,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-057.png"
+    },
+    {
+      "progress": 0.4957983193277311,
+      "position": [
+        0.018612764730212516,
+        1.707445105892085,
+        1.8957685175108099
+      ],
+      "lookAt": [
+        -2.9396757585485984,
+        1.222335317676255,
+        -2.3010178590862953
+      ],
+      "fov": 51.07445105892085,
+      "doorOpening": 1,
+      "seconds": 22.63,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-059.png"
+    },
+    {
+      "progress": 0.5042016806722689,
+      "position": [
+        0.09809820200942439,
+        1.7392392808037698,
+        1.4506500687472235
+      ],
+      "lookAt": [
+        -2.041490317293504,
+        1.3177178424113092,
+        -3.159460581701784
+      ],
+      "fov": 51.3923928080377,
+      "doorOpening": 1,
+      "seconds": 23.05,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-060.png"
+    },
+    {
+      "progress": 0.5126050420168067,
+      "position": [
+        0.21418552670697463,
+        1.7856742106827899,
+        0.8005610504409422
+      ],
+      "lookAt": [
+        -0.7297035482111864,
+        1.4570226320483695,
+        -4.413203688435326
+      ],
+      "fov": 51.8567421068279,
+      "doorOpening": 1,
+      "seconds": 23.15,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-061.png"
+    },
+    {
+      "progress": 0.5210084033613446,
+      "position": [
+        0.3383907797424459,
+        1.8353563118969782,
+        0.10501163344230302
+      ],
+      "lookAt": [
+        0.6738158110896393,
+        1.606068935690935,
+        -5.754620421218416
+      ],
+      "fov": 52.35356311896978,
+      "doorOpening": 1,
+      "seconds": 22.46,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-062.png"
+    },
+    {
+      "progress": 0.5294117647058824,
+      "position": [
+        0.442230002035416,
+        1.8768920008141663,
+        -0.47648801139832964
+      ],
+      "lookAt": [
+        1.8471990230002011,
+        1.7306760024424994,
+        -6.876084021982493
+      ],
+      "fov": 52.76892000814166,
+      "doorOpening": 1,
+      "seconds": 23.04,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-063.png"
+    },
+    {
+      "progress": 0.5378151260504201,
+      "position": [
+        0.49721923450546784,
+        1.898887693802187,
+        -0.7844277132306199
+      ],
+      "lookAt": [
+        2.468577349911787,
+        1.7966630814065616,
+        -7.469967732659054
+      ],
+      "fov": 52.988876938021875,
+      "doorOpening": 1,
+      "seconds": 22.99,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-064.png"
+    },
+    {
+      "progress": 0.5462184873949579,
+      "position": [
+        0.5445462407655729,
+        1.9044546240765572,
+        -0.8824105454163099
+      ],
+      "lookAt": [
+        2.575728609301474,
+        1.8022273120382788,
+        -7.5712739852249165
+      ],
+      "fov": 53.0,
+      "doorOpening": 1,
+      "seconds": 23.99,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-065.png"
+    },
+    {
+      "progress": 0.5546218487394958,
+      "position": [
+        0.7253377213739641,
+        1.9225337721373963,
+        -1.2168747845418337
+      ],
+      "lookAt": [
+        2.883074126335739,
+        1.8112668860686982,
+        -7.860540354198343
+      ],
+      "fov": 53.0,
+      "doorOpening": 1,
+      "seconds": 23.92,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-066.png"
+    },
+    {
+      "progress": 0.5630252100840336,
+      "position": [
+        1.0068195821135726,
+        1.9506819582113573,
+        -1.7376162269101092
+      ],
+      "lookAt": [
+        3.361593289593073,
+        1.8253409791056787,
+        -8.310911331381716
+      ],
+      "fov": 53.0,
+      "doorOpening": 1,
+      "seconds": 24.22,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-067.png"
+    },
+    {
+      "progress": 0.5714285714285714,
+      "position": [
+        1.3474700167447216,
+        1.9847470016744722,
+        -2.3678195309777355
+      ],
+      "lookAt": [
+        3.9406990284660273,
+        1.8423735008372362,
+        -8.855952026791554
+      ],
+      "fov": 53.0,
+      "doorOpening": 1,
+      "seconds": 24.76,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-068.png"
+    },
+    {
+      "progress": 0.5798319327731093,
+      "position": [
+        1.7057672190277389,
+        2.0205767219027737,
+        -3.030669355201317
+      ],
+      "lookAt": [
+        4.549804272347156,
+        1.860288360951387,
+        -9.42922755044438
+      ],
+      "fov": 53.0,
+      "doorOpening": 1,
+      "seconds": 25.39,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-069.png"
+    },
+    {
+      "progress": 0.5882352941176471,
+      "position": [
+        2.0401893827229367,
+        2.0540189382722938,
+        -3.6493503580374327
+      ],
+      "lookAt": [
+        5.118321950628992,
+        1.8770094691361467,
+        -9.964303012356698
+      ],
+      "fov": 53.0,
+      "doorOpening": 1,
+      "seconds": 25.79,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-070.png"
+    },
+    {
+      "progress": 0.5966386554621849,
+      "position": [
+        2.309214701590642,
+        2.080921470159064,
+        -4.147047197942688
+      ],
+      "lookAt": [
+        5.575664992704091,
+        1.890460735079532,
+        -10.394743522545026
+      ],
+      "fov": 53.0,
+      "doorOpening": 1,
+      "seconds": 26.88,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-071.png"
+    },
+    {
+      "progress": 0.6134453781512605,
+      "position": [
+        2.5218810487890444,
+        2.0976216251316258,
+        -4.5342485981045915
+      ],
+      "lookAt": [
+        5.903329724815724,
+        1.895243250263251,
+        -10.704756749736749
+      ],
+      "fov": 52.95243250263251,
+      "doorOpening": 1,
+      "seconds": 28.8,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-073.png"
+    },
+    {
+      "progress": 0.6218487394957983,
+      "position": [
+        2.7336599988487738,
+        2.074602174038177,
+        -4.865728693850254
+      ],
+      "lookAt": [
+        5.935556956346553,
+        1.8492043480763534,
+        -10.750795651923646
+      ],
+      "fov": 52.492043480763535,
+      "doorOpening": 1,
+      "seconds": 30.79,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-074.png"
+    },
+    {
+      "progress": 0.6302521008403361,
+      "position": [
+        3.1092217136209115,
+        2.033780248519466,
+        -5.453564421319688
+      ],
+      "lookAt": [
+        5.992707652072748,
+        1.7675604970389323,
+        -10.832439502961067
+      ],
+      "fov": 51.67560497038932,
+      "doorOpening": 1,
+      "seconds": 32.38,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-075.png"
+    },
+    {
+      "progress": 0.6386554621848739,
+      "position": [
+        3.572740839071935,
+        1.9833977348834855,
+        -6.179072617677812
+      ],
+      "lookAt": [
+        6.063243171163121,
+        1.6667954697669705,
+        -10.933204530233029
+      ],
+      "fov": 50.66795469766971,
+      "doorOpening": 1,
+      "seconds": 32.71,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-076.png"
+    },
+    {
+      "progress": 0.6470588235294118,
+      "position": [
+        4.048392021168329,
+        1.9316965194382252,
+        -6.923570120089559
+      ],
+      "lookAt": [
+        6.135624872786485,
+        1.56339303887645,
+        -11.03660696112355
+      ],
+      "fov": 49.6339303887645,
+      "doorOpening": 1,
+      "seconds": 34.6,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-077.png"
+    },
+    {
+      "progress": 0.6554621848739496,
+      "position": [
+        4.4603499058765586,
+        1.8869184884916785,
+        -7.568373765719831
+      ],
+      "lookAt": [
+        6.19831411611165,
+        1.4738369769833568,
+        -11.126163023016643
+      ],
+      "fov": 48.73836976983357,
+      "doorOpening": 1,
+      "seconds": 26.91,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-078.png"
+    },
+    {
+      "progress": 0.6638655462184874,
+      "position": [
+        4.732789139163106,
+        1.8573055283518363,
+        -7.994800391733557
+      ],
+      "lookAt": [
+        6.239772260307429,
+        1.4146110567036725,
+        -11.185388943296326
+      ],
+      "fov": 48.14611056703673,
+      "doorOpening": 1,
+      "seconds": 28.54,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-079.png"
+    },
+    {
+      "progress": 0.6722689075630253,
+      "position": [
+        4.80339176616024,
+        1.848928915949398,
+        -8.104284336202408
+      ],
+      "lookAt": [
+        6.25,
+        1.4,
+        -11.2
+      ],
+      "fov": 47.985718879325304,
+      "doorOpening": 1,
+      "seconds": 25.38,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-080.png"
+    },
+    {
+      "progress": 0.680672268907563,
+      "position": [
+        4.868420383281343,
+        1.828393563174313,
+        -8.18642574730275
+      ],
+      "lookAt": [
+        6.25,
+        1.4,
+        -11.2
+      ],
+      "fov": 47.711914175657505,
+      "doorOpening": 1,
+      "seconds": 25.72,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-081.png"
+    },
+    {
+      "progress": 0.6890756302521008,
+      "position": [
+        4.997434188864729,
+        1.7876523614111381,
+        -8.349390554355448
+      ],
+      "lookAt": [
+        6.25,
+        1.4,
+        -11.2
+      ],
+      "fov": 47.16869815214851,
+      "doorOpening": 1,
+      "seconds": 25.09,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-082.png"
+    },
+    {
+      "progress": 0.6974789915966386,
+      "position": [
+        5.165799809103938,
+        1.7344842708092827,
+        -8.56206291676287
+      ],
+      "lookAt": [
+        6.25,
+        1.4,
+        -11.2
+      ],
+      "fov": 46.4597902774571,
+      "doorOpening": 1,
+      "seconds": 25.12,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-083.png"
+    },
+    {
+      "progress": 0.7058823529411765,
+      "position": [
+        5.348883870192511,
+        1.6766682515181544,
+        -8.793326993927383
+      ],
+      "lookAt": [
+        6.25,
+        1.4,
+        -11.2
+      ],
+      "fov": 45.688910020242055,
+      "doorOpening": 1,
+      "seconds": 24.68,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-084.png"
+    },
+    {
+      "progress": 0.7142857142857143,
+      "position": [
+        5.52205299832398,
+        1.6219832636871643,
+        -9.012066945251345
+      ],
+      "lookAt": [
+        6.25,
+        1.4,
+        -11.2
+      ],
+      "fov": 44.95977684916219,
+      "doorOpening": 1,
+      "seconds": 25.02,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-085.png"
+    },
+    {
+      "progress": 0.7226890756302521,
+      "position": [
+        5.660673819691887,
+        1.5782082674657198,
+        -9.18716693013712
+      ],
+      "lookAt": [
+        6.25,
+        1.4,
+        -11.2
+      ],
+      "fov": 44.376110232876265,
+      "doorOpening": 1,
+      "seconds": 24.53,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-086.png"
+    },
+    {
+      "progress": 0.7310924369747899,
+      "position": [
+        5.74011296048977,
+        1.5531222230032307,
+        -9.28751110798708
+      ],
+      "lookAt": [
+        6.25,
+        1.4,
+        -11.2
+      ],
+      "fov": 44.04162964004307,
+      "doorOpening": 1,
+      "seconds": 23.59,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-087.png"
+    },
+    {
+      "progress": 0.7478991596638656,
+      "position": [
+        5.520695563009851,
+        1.6696370975600778,
+        -9.16042338617991
+      ],
+      "lookAt": [
+        5.502268140249514,
+        1.7888205670702526,
+        -10.203024186999352
+      ],
+      "fov": 45.395766138200905,
+      "doorOpening": 1,
+      "seconds": 26.49,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-089.png"
+    },
+    {
+      "progress": 0.7563025210084033,
+      "position": [
+        5.2208600208359295,
+        1.8260730326073413,
+        -8.977914795291435
+      ],
+      "lookAt": [
+        4.524543546204117,
+        2.2972373559738593,
+        -8.899391394938823
+      ],
+      "fov": 47.22085204708565,
+      "doorOpening": 1,
+      "seconds": 38.6,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-090.png"
+    },
+    {
+      "progress": 0.7647058823529411,
+      "position": [
+        4.908218418869679,
+        1.98919039015495,
+        -8.787611211485892
+      ],
+      "lookAt": [
+        3.505060061531562,
+        2.8273687680035877,
+        -7.540080082042083
+      ],
+      "fov": 49.12388788514109,
+      "doorOpening": 1,
+      "seconds": 37.33,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-091.png"
+    },
+    {
+      "progress": 0.773109243697479,
+      "position": [
+        4.6726378433730495,
+        2.112101994761887,
+        -8.644214339444465
+      ],
+      "lookAt": [
+        2.7368625327382063,
+        3.2268314829761326,
+        -6.515816710317608
+      ],
+      "fov": 50.55785660555535,
+      "doorOpening": 1,
+      "seconds": 35.93,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-092.png"
+    },
+    {
+      "progress": 0.7815126050420168,
+      "position": [
+        4.594350588401451,
+        2.1510760783997234,
+        -8.59704078440076
+      ],
+      "lookAt": [
+        2.5,
+        3.3500807058799795,
+        -6.2
+      ],
+      "fov": 50.98654902000345,
+      "doorOpening": 1,
+      "seconds": 35.33,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-093.png"
+    },
+    {
+      "progress": 0.7899159663865546,
+      "position": [
+        4.3849775381432865,
+        2.190956659401279,
+        -8.487369186646482
+      ],
+      "lookAt": [
+        2.5,
+        3.353071749455096,
+        -6.2
+      ],
+      "fov": 50.48804175748402,
+      "doorOpening": 1,
+      "seconds": 34.24,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-094.png"
+    },
+    {
+      "progress": 0.7983193277310925,
+      "position": [
+        3.9608639203778364,
+        2.271740205642317,
+        -8.265214434483628
+      ],
+      "lookAt": [
+        2.5,
+        3.359130515423174,
+        -6.2
+      ],
+      "fov": 49.47824742947104,
+      "doorOpening": 1,
+      "seconds": 26.95,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-095.png"
+    },
+    {
+      "progress": 0.8067226890756303,
+      "position": [
+        3.441642363242873,
+        2.3706395498585002,
+        -7.993241237889124
+      ],
+      "lookAt": [
+        2.5,
+        3.3665479662393873,
+        -6.2
+      ],
+      "fov": 48.242005626768744,
+      "doorOpening": 1,
+      "seconds": 28.51,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-096.png"
+    },
+    {
+      "progress": 0.8151260504201681,
+      "position": [
+        2.9469454948761507,
+        2.464867524785495,
+        -7.7341143068398885
+      ],
+      "lookAt": [
+        2.5,
+        3.373615064358912,
+        -6.2
+      ],
+      "fov": 47.06415594018131,
+      "doorOpening": 1,
+      "seconds": 27.39,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-097.png"
+    },
+    {
+      "progress": 0.8235294117647058,
+      "position": [
+        2.5964059434154287,
+        2.5316369631589657,
+        -7.550498351312844
+      ],
+      "lookAt": [
+        2.5,
+        3.3786227722369224,
+        -6.2
+      ],
+      "fov": 46.22953796051293,
+      "doorOpening": 1,
+      "seconds": 26.95,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-098.png"
+    },
+    {
+      "progress": 0.8403361344537815,
+      "position": [
+        2.5,
+        2.316826898826756,
+        -8.076074720545662
+      ],
+      "lookAt": [
+        2.637160647748967,
+        2.7874660017244617,
+        -8.36713823443368
+      ],
+      "fov": 46.8229638864938,
+      "doorOpening": 1,
+      "seconds": 29.34,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-100.png"
+    },
+    {
+      "progress": 0.8487394957983193,
+      "position": [
+        2.5,
+        1.9693639173690014,
+        -8.934512674735409
+      ],
+      "lookAt": [
+        2.841550636841764,
+        1.90450124884358,
+        -11.596500062099867
+      ],
+      "fov": 48.049303821050586,
+      "doorOpening": 1,
+      "seconds": 33.38,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-101.png"
+    },
+    {
+      "progress": 0.8571428571428571,
+      "position": [
+        2.5,
+        1.7216607277831772,
+        -9.546485260770973
+      ],
+      "lookAt": [
+        2.9872583954216605,
+        1.275043731778427,
+        -13.898682647662234
+      ],
+      "fov": 48.92355037252996,
+      "doorOpening": 1,
+      "seconds": 28.84,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-102.png"
+    },
+    {
+      "progress": 0.865546218487395,
+      "position": [
+        2.511786513913524,
+        1.6903783559889598,
+        -9.685392090597981
+      ],
+      "lookAt": [
+        3.000481082200552,
+        1.220240541100276,
+        -14.09879729449862
+      ],
+      "fov": 48.8556753398344,
+      "doorOpening": 1,
+      "seconds": 28.25,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-103.png"
+    },
+    {
+      "progress": 0.8739495798319328,
+      "position": [
+        2.5671422971341555,
+        1.6451899615231382,
+        -10.086439091482147
+      ],
+      "lookAt": [
+        3.002740501923843,
+        1.2213702509619215,
+        -14.093148745190392
+      ],
+      "fov": 48.177849422847075,
+      "doorOpening": 1,
+      "seconds": 28.28,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-104.png"
+    },
+    {
+      "progress": 0.8823529411764706,
+      "position": [
+        2.653352405937384,
+        1.5748143625000945,
+        -10.711022532811661
+      ],
+      "lookAt": [
+        3.0062592818749954,
+        1.2231296409374977,
+        -14.084351795312513
+      ],
+      "fov": 47.12221543750142,
+      "doorOpening": 1,
+      "seconds": 27.41,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-105.png"
+    },
+    {
+      "progress": 0.8907563025210085,
+      "position": [
+        2.7542627431595483,
+        1.4924385770126138,
+        -11.442107629013053
+      ],
+      "lookAt": [
+        3.0103780711493693,
+        1.2251890355746846,
+        -14.074054822126577
+      ],
+      "fov": 45.886578655189204,
+      "doorOpening": 1,
+      "seconds": 26.33,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-106.png"
+    },
+    {
+      "progress": 0.8991596638655462,
+      "position": [
+        2.8537192116369807,
+        1.411249623153485,
+        -12.16265959451282
+      ],
+      "lookAt": [
+        3.0144375188423256,
+        1.2272187594211628,
+        -14.063906202894186
+      ],
+      "fov": 44.66874434730228,
+      "doorOpening": 1,
+      "seconds": 24.15,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-107.png"
+    },
+    {
+      "progress": 0.907563025210084,
+      "position": [
+        2.935567714206021,
+        1.3444345190154936,
+        -12.755643643737496
+      ],
+      "lookAt": [
+        3.0177782740492254,
+        1.2288891370246127,
+        -14.055554314876938
+      ],
+      "fov": 43.6665177852324,
+      "doorOpening": 1,
+      "seconds": 24.44,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-108.png"
+    },
+    {
+      "progress": 0.9159663865546218,
+      "position": [
+        2.9836541537030037,
+        1.3051802826914258,
+        -13.104024991113597
+      ],
+      "lookAt": [
+        3.019740985865429,
+        1.2298704929327144,
+        -14.050647535336429
+      ],
+      "fov": 43.07770424037139,
+      "doorOpening": 1,
+      "seconds": 24.21,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-109.png"
+    },
+    {
+      "progress": 0.9327731092436975,
+      "position": [
+        2.997026517972488,
+        1.4053977695873212,
+        -12.693276331788274
+      ],
+      "lookAt": [
+        3.02,
+        1.23,
+        -14.05
+      ],
+      "fov": 45.810607188995235,
+      "doorOpening": 1,
+      "seconds": 26.51,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-111.png"
+    },
+    {
+      "progress": 0.9411764705882353,
+      "position": [
+        2.9950132302055765,
+        1.4544880928149808,
+        -12.45511907185019
+      ],
+      "lookAt": [
+        3.0148137594137996,
+        1.2336902096478732,
+        -14.039527783431712
+      ],
+      "fov": 47.03989415835539,
+      "doorOpening": 1,
+      "seconds": 24.93,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-112.png"
+    },
+    {
+      "progress": 0.9495798319327731,
+      "position": [
+        2.765747030398912,
+        1.6608276726409792,
+        -10.391723273590207
+      ],
+      "lookAt": [
+        2.7763769116148684,
+        1.4033471975048053,
+        -13.558068763837715
+      ],
+      "fov": 48.874023756808704,
+      "doorOpening": 1,
+      "seconds": 26.37,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-113.png"
+    },
+    {
+      "progress": 0.957983193277311,
+      "position": [
+        2.5142277375606685,
+        1.8871950361953984,
+        -8.128049638046015
+      ],
+      "lookAt": [
+        2.514796847063095,
+        1.5894714742051055,
+        -13.029878248877404
+      ],
+      "fov": 50.88617809951465,
+      "doorOpening": 1,
+      "seconds": 24.33,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-114.png"
+    },
+    {
+      "progress": 0.9663865546218487,
+      "position": [
+        1.6042109951027066,
+        1.9,
+        -4.300001936293787
+      ],
+      "lookAt": [
+        2.5,
+        1.6389473480390129,
+        -10.078948897074042
+      ],
+      "fov": 51.38947348039013,
+      "doorOpening": 1,
+      "seconds": 24.1,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-115.png"
+    },
+    {
+      "progress": 0.9747899159663865,
+      "position": [
+        0.20134084501049276,
+        1.9,
+        1.4944617271305738
+      ],
+      "lookAt": [
+        2.5,
+        1.699941702390848,
+        -5.5043723206863895
+      ],
+      "fov": 51.99941702390848,
+      "doorOpening": 1,
+      "seconds": 23.23,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-116.png"
+    },
+    {
+      "progress": 0.9831932773109243,
+      "position": [
+        0.017226445694442538,
+        2.539707440069451,
+        9.724809943750087
+      ],
+      "lookAt": [
+        0.21533057118053156,
+        2.522480994375009,
+        2.267876057986192
+      ],
+      "fov": 48.34452891388885,
+      "doorOpening": 1,
+      "seconds": 22.55,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-117.png"
+    },
+    {
+      "progress": 0.9915966386554622,
+      "position": [
+        4.511107963809501,
+        4.19939282353246,
+        13.985856153852795
+      ],
+      "lookAt": [
+        0.0,
+        3.174141013575755,
+        3.0
+      ],
+      "fov": 46.76969782805195,
+      "doorOpening": 1,
+      "seconds": 21.5,
+      "samples": 16,
+      "engine": "CYCLES",
+      "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
+      "resolution": [
+        960,
+        640
+      ],
+      "file": "public/journey/raw/frame-118.png"
+    }
+  ],
+  "elapsedSeconds": 3015.65
+}
