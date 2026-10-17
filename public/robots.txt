@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ipnetsecurity.com/sitemap.xml

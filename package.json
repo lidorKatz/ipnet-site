@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev --hostname 0.0.0.0",
-    "build": "next build",
+    "build": "node scripts/check-assets.mjs && next build",
     "typecheck": "tsc --noEmit",
     "start": "python3 -m http.server 3000 --bind 0.0.0.0 --directory out",
     "preview:build": "node scripts/build-preview.mjs",
-    "assets:render": "blender --background --python scripts/build-scene.py -- --all"
+    "assets:render": "blender --background --python scripts/build-scene.py -- --all",
+    "assets:prepare": "python3 scripts/prepare-frames.py --require-complete"
   },
   "dependencies": {
     "@fontsource/archivo": "5.3.0",

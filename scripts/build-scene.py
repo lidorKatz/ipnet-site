@@ -23,10 +23,12 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--all", action="store_true")
 parser.add_argument("--progress", type=float, default=.04)
 parser.add_argument("--width", type=int, default=960)
-parser.add_argument("--samples", type=int, default=24)
+parser.add_argument("--samples", type=int, default=16)
 parser.add_argument("--frames", type=int, default=SPEC["frameCount"])
 parser.add_argument("--start", type=int, default=0)
 parser.add_argument("--end", type=int)
+parser.add_argument("--priority", default="0,17,31,45,58,72,88,99,110,119", help="Render representative shots first, then the remaining frames")
+parser.add_argument("--resume", action="store_true", help="Reuse only matching source, sample count, resolution and progress")
 parser.add_argument("--save-blend", action="store_true")
 parser.add_argument("--engine", choices=["CYCLES","BLENDER_EEVEE_NEXT"], default="CYCLES")
 parser.add_argument("--oidn", default="/tmp/ipnet-render-tools/oidn-2.5.1.x86_64.linux/bin/oidnDenoise")
@@ -102,6 +104,9 @@ M={
  "leaf":material("Rubber plant leaf",(.035,.085,.025),.48),
 }
 M["leaf"].node_tree.nodes.get("Principled BSDF").inputs["Subsurface Weight"].default_value=.045
+M["paving"]=M["floor"].copy()
+M["paving"].name="Matte exterior paving"
+M["paving"].node_tree.nodes.get("Principled BSDF").inputs["Roughness"].default_value=.78
 def attach(obj,mat,parent=None):
     if mat: obj.data.materials.append(M[mat] if isinstance(mat,str) else mat)
     SCENE.collection.objects.link(obj)
@@ -165,7 +170,7 @@ def screen(name,at,size,filepath,parent=None):
 
 # A connected street-level building: front z=6; interior extends toward -z.
 box("Street",(0,-.21,21),(100,.14,45),"road",0)
-box("Sidewalk",(0,-.045,8),(70,.12,4.1),"floor",.008)
+box("Sidewalk",(0,-.045,8),(70,.12,4.1),"paving",.008)
 box("Curb",(0,-.12,10.12),(70,.24,.22),"stone",.01)
 for x in range(-12,13):
     box("Paving joint",(x*1.2,.017,8),(.002,.001,4),"grout",0)
@@ -193,7 +198,11 @@ for x in [-3.9,3.9]:
     for y in [.15,1.25,3.14]:
         box("Glazing rail",(x,y,6.1),(2.25,.045,.09),"dark")
 box("Canopy",(0,3.5,6.9),(3.7,.12,1.8),"dark",.012)
-box("Canopy underside",(0,3.426,6.9),(3.3,.012,1.55),"warm",0)
+box("Canopy underside",(0,3.426,6.9),(3.3,.012,1.55),"dark",0)
+for x in [-1.53,1.53]:
+    box("Recessed canopy strip",(x,3.415,6.9),(.025,.009,1.4),"warm",0)
+for z in [6.20,7.60]:
+    box("Recessed canopy strip",(0,3.415,z),(3.06,.009,.025),"warm",0)
 area("Canopy practical",(0,3.4,6.9),(0,0,6.9),140,3.1,1.3)
 for row in range(5):
     y=5.55+row*2.7
@@ -238,9 +247,9 @@ def plant(x,z,seed):
         rod("Botanical stem",(x,.58,z),tip,.005,"wood")
         verts=[]; faces=[]
         for j in range(9):
-            t=j/8; wid=math.sin(math.pi*t)*.075
+            t=j/8; wid=math.sin(math.pi*t)*.12
             for sign in [-1,1]:
-                along=t*.27
+                along=t*.37
                 verts.append(P((tip[0]+math.cos(angle)*along+math.sin(angle)*wid*sign,
                                 tip[1]+math.sin(math.pi*t)*.035,
                                 tip[2]+math.sin(angle)*along-math.cos(angle)*wid*sign)))
@@ -484,8 +493,9 @@ def auxiliary(stem):
     output.file_slots.clear()
     paths={}
     for key,port in [("beauty","Image"),("albedo","Denoising Albedo"),("normal","Denoising Normal")]:
-        slot=output.file_slots.new(key); slot.path=f"{stem}-{key}-"
-        l.new(source.outputs[port],output.inputs[key])
+        socket=output.file_slots.new(key)
+        output.file_slots[-1].path=f"{stem}-{key}-"
+        l.new(source.outputs[port],socket)
         paths[key]=WORK/f"{stem}-{key}-{SCENE.frame_current:04d}.exr"
     return paths
 def pfm(exr,target):
@@ -511,7 +521,9 @@ def denoise(paths,stem,target):
     if hashlib.sha256(binary.read_bytes()).hexdigest()!=expected: raise RuntimeError("OIDN binary checksum mismatch")
     for key,file in paths.items(): pfm(file,WORK/f"{stem}-{key}.pfm")
     env=os.environ.copy(); env["OIDN_DEFAULT_DEVICE"]="CPU"; env["OMP_NUM_THREADS"]="4"
-    command=[str(binary),"--device","cpu","--filter","RT","--hdr",str(WORK/f"{stem}-beauty.pfm"),"--alb",str(WORK/f"{stem}-albedo.pfm"),"--nrm",str(WORK/f"{stem}-normal.pfm"),"--output",str(WORK/f"{stem}-denoised.pfm"),"--quality","high","--threads","4"]
+    for key,flag in [("albedo","--alb"),("normal","--nrm")]:
+        subprocess.run([str(binary),"--device","cpu","--filter","RT",flag,str(WORK/f"{stem}-{key}.pfm"),"--output",str(WORK/f"{stem}-{key}-clean.pfm"),"--quality","high","--threads","4"],check=True,env=env,stdout=subprocess.DEVNULL)
+    command=[str(binary),"--device","cpu","--filter","RT","--hdr",str(WORK/f"{stem}-beauty.pfm"),"--alb",str(WORK/f"{stem}-albedo-clean.pfm"),"--nrm",str(WORK/f"{stem}-normal-clean.pfm"),"--clean_aux","--output",str(WORK/f"{stem}-denoised.pfm"),"--quality","high","--threads","4"]
     subprocess.run(command,check=True,env=env,stdout=subprocess.DEVNULL)
     rgb=read_pfm(WORK/f"{stem}-denoised.pfm"); h,w,_=rgb.shape
     image=bpy.data.images.new("Clean linear render",width=w,height=h,alpha=True,float_buffer=True)
@@ -519,13 +531,21 @@ def denoise(paths,stem,target):
     image.colorspace_settings.name="Linear Rec.709"; image.pixels.foreach_set(rgba.ravel())
     image.save_render(str(target),scene=SCENE); bpy.data.images.remove(image)
 
-sourcehash=hashlib.sha256(Path(__file__).read_bytes()+(ROOT/"config/journey.json").read_bytes()).hexdigest()
+sourcehash=hashlib.sha256(Path(__file__).read_bytes()+(ROOT/"config/journey.json").read_bytes()+(ROOT/"scripts/make-screens.py").read_bytes()).hexdigest()
 frames=[]
-indices=range(ARGS.start,ARGS.end if ARGS.end is not None else ARGS.frames) if ARGS.all else [0]
+indices=list(range(ARGS.start,ARGS.end if ARGS.end is not None else ARGS.frames)) if ARGS.all else [0]
+if ARGS.all:
+    priority=[int(i) for i in ARGS.priority.split(",") if i.strip()]
+    indices=[i for i in priority if i in indices]+[i for i in indices if i not in priority]
 for index in indices:
     p=index/(ARGS.frames-1) if ARGS.all else ARGS.progress
     stem=f"frame-{index:03d}" if ARGS.all else "poster"
     target=OUTPUT/"raw"/f"{stem}.png"; target.parent.mkdir(parents=True,exist_ok=True)
+    previous=OUTPUT/"raw"/f"{stem}.json"
+    if ARGS.resume and target.exists() and previous.exists():
+        saved=json.loads(previous.read_text())
+        if saved.get("sourceSha256")==sourcehash and saved.get("samples")==ARGS.samples and saved.get("progress")==p and saved.get("resolution")==[SCENE.render.resolution_x,SCENE.render.resolution_y]:
+            frames.append(saved); print("IPNET_REUSED "+stem,flush=True); continue
     metadata=pose(p); SCENE.frame_set(index+1)
     passes=auxiliary(stem) if ARGS.engine=="CYCLES" else {}
     SCENE.render.filepath=str(WORK/f"{stem}-raw.png")
@@ -535,7 +555,7 @@ for index in indices:
     if passes: denoise(passes,stem,target)
     else:
         import shutil; shutil.copy2(SCENE.render.filepath,target)
-    metadata.update({"seconds":round(time.perf_counter()-begin,2),"samples":ARGS.samples,"engine":ARGS.engine,"sourceSha256":sourcehash,"file":str(target.relative_to(ROOT))})
+    metadata.update({"seconds":round(time.perf_counter()-begin,2),"samples":ARGS.samples,"engine":ARGS.engine,"sourceSha256":sourcehash,"resolution":[SCENE.render.resolution_x,SCENE.render.resolution_y],"file":str(target.relative_to(ROOT))})
     (OUTPUT/"raw"/f"{stem}.json").write_text(json.dumps(metadata,indent=2))
     frames.append(metadata)
     print("IPNET_FRAME "+json.dumps(metadata),flush=True)
