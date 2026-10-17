@@ -81,7 +81,7 @@ export function Journey(){
     </div>
   </section>)}</div>
   {!reduced&&<SystemHotspot scene={activeScene}/>}
-  {!reduced&&<nav className="chapter-rail" aria-label="Explore the building">{scenes.filter(s=>s.id!=="intro"&&s.id!=="final"&&s.id!=="xray").map((s,i)=><button key={s.id} onClick={()=>jump((s.start+s.end)/2)} aria-label={`Explore ${s.label.split(" / ")[1]}`} title={s.label.split(" / ")[1]}><span>{String(i+1).padStart(2,"0")}</span><i/></button>)}</nav>}
+  {!reduced&&<nav className="chapter-rail" aria-label="Explore the building">{scenes.filter(s=>s.id!=="intro"&&s.id!=="final").map((s,i)=><button key={s.id} onClick={()=>jump((s.start+s.end)/2)} aria-label={`Explore ${s.label.split(" / ")[1]}`} title={s.label.split(" / ")[1]}><span>{String(i+1).padStart(2,"0")}</span><i/></button>)}</nav>}
   <div className="journey-bottom"><span ref={chapter}>SCROLL TO EXPLORE</span><a href="#services">{reduced?"EXPLORE OUR SERVICES":"ONE PROPERTY. EVERY CONNECTION."}<Arrow/></a></div>
   <div className="journey-progress" ref={bar}/>
   {debug&&<div className="debug-controls"><label>Journey progress<input type="range" min="0" max="1" step=".001" onChange={event=>jump(Number(event.target.value))}/></label></div>}

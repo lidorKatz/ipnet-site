@@ -8,9 +8,183 @@
       "samples": 16
     },
     {
+      "src": "/journey/frames/frame-001.webp",
+      "progress": 0.008403361344537815,
+      "sha256": "e01f3e3efd51c48abda6ffac3227754db770864ad0565d90fb58f25a661de417",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-002.webp",
+      "progress": 0.01680672268907563,
+      "sha256": "1c55f3135bc4c1c4244163f6a7a393c0301a230a5b8368ad1b1bbdf72fbe4a7f",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-003.webp",
+      "progress": 0.025210084033613446,
+      "sha256": "83d268dd2297711ea85c6ee60eb5f43962bd22ac845d6b7a3b502d05a3f93808",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-004.webp",
+      "progress": 0.03361344537815126,
+      "sha256": "17f5d880f5cfb10ea9e060e204946316c59ac5d8ff266b3ccb155dae54a051f3",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-005.webp",
+      "progress": 0.04201680672268908,
+      "sha256": "03d06795dd5230e153f42a98a4537815b03dd4b7303c5274dedbd0425fc3b18e",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-006.webp",
+      "progress": 0.05042016806722689,
+      "sha256": "aa27d927b34d6c697534a11b521d24cbd711a4ef8e6c8bc00e1f8c0123f082d5",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-007.webp",
+      "progress": 0.058823529411764705,
+      "sha256": "7e8d5a79a320ae209f1acb2108c39f8f0276794657a992f6b88f93fa865ce38b",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-008.webp",
+      "progress": 0.06722689075630252,
+      "sha256": "1e8456d180b1d9ccdfbdb80907578165450487accedcf02fe91de128a7e81ff7",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-009.webp",
+      "progress": 0.07563025210084033,
+      "sha256": "f2d9bd1784f81d8d93cac7d033f77ff9726de2ff2f0772fd40c32bd8e932d837",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-010.webp",
+      "progress": 0.08403361344537816,
+      "sha256": "6f52a49e05d1cd0e6797021a2b3828a810c8c0dc1a631d737a9be49a33fd5ff5",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-011.webp",
+      "progress": 0.09243697478991597,
+      "sha256": "532931df0698a1f1d09881f2fc07dfa9bd38b40bd2618da2db5f8a692a23b303",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-012.webp",
+      "progress": 0.10084033613445378,
+      "sha256": "72ea1b23b3996b2df3847727eaaaa52651b05df008f0566fe52bfac83be9d152",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-013.webp",
+      "progress": 0.1092436974789916,
+      "sha256": "b72d8cbba0e722a400f8f1b5a1a898df2399db0342ff213d414aaca436af0a73",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-014.webp",
+      "progress": 0.11764705882352941,
+      "sha256": "918afac37d58765735a0c7cdb09b3cc71bbddb2dac1d0b700db0c6cb9223c212",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-015.webp",
+      "progress": 0.12605042016806722,
+      "sha256": "362a16b007ab5d128520f8d05f11c8cd9b21d2b05010b43eafebfaa724f107b0",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-016.webp",
+      "progress": 0.13445378151260504,
+      "sha256": "6de258cbf7c99bd80dc8012c0ca3d12cd6bfface8442b8714fbe1ff1d03a8390",
+      "samples": 16
+    },
+    {
       "src": "/journey/frames/frame-017.webp",
       "progress": 0.14285714285714285,
       "sha256": "efb93edf1276e4b5f31969fa4e0bf285f7ca78cd5d64896a09459f555cd03696",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-018.webp",
+      "progress": 0.15126050420168066,
+      "sha256": "74d812334ff88425da072e820c80a6dc44f703bc2cd82fa1be24fcbf998ea9b6",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-019.webp",
+      "progress": 0.15966386554621848,
+      "sha256": "673b267b8a2920326769e032d8e9490ac5f201c52f8292158844f0580797a339",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-020.webp",
+      "progress": 0.16806722689075632,
+      "sha256": "6728c0ebfc75e089b3776c9e0cf5779ca7205ac43aa83d503ad960fc96ae1850",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-021.webp",
+      "progress": 0.17647058823529413,
+      "sha256": "6adc6adcfc080021178b23129cd073d7ff1baed62bb47a4238c4da0c8cfa81ca",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-022.webp",
+      "progress": 0.18487394957983194,
+      "sha256": "d1bfca94a6cbf79b3357e0d1b29e632f4fdd0f2d6007ce5c39401b630fd780d0",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-023.webp",
+      "progress": 0.19327731092436976,
+      "sha256": "7a336cb63604a0499925625d19d916f3b4dd28ea381307346fd792c930983504",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-024.webp",
+      "progress": 0.20168067226890757,
+      "sha256": "7f433d069d5f6da74128bd9f4b0deeaf080c875bea0dde8b2a5d85022cb97057",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-025.webp",
+      "progress": 0.21008403361344538,
+      "sha256": "d5017ad736a90efd437a44ea74d97e1147214d5d20ce9ad22ba5a8bd50b07b21",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-026.webp",
+      "progress": 0.2184873949579832,
+      "sha256": "cf24e504cd0d8345f85e5d4b2af9d8cf27f10f7c73ff1f284dc4616b6047140a",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-027.webp",
+      "progress": 0.226890756302521,
+      "sha256": "fac3d071e1911f0410de98d9082d42f371ccaab35dd19243f393057ed8467590",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-028.webp",
+      "progress": 0.23529411764705882,
+      "sha256": "9abf54c9be27380e0b2442fece8e5eb0d659330877ba0d89773287b75461f8e7",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-029.webp",
+      "progress": 0.24369747899159663,
+      "sha256": "b9ddd58c3efa95977633ef9d69364f2a8d3a367775e89cd28fb0aac9fb223fcf",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-030.webp",
+      "progress": 0.25210084033613445,
+      "sha256": "b708c57eca3557c3d3ae770159906fbd9895ba8ecd8c1e59b7f17b09b429a89c",
       "samples": 16
     },
     {
@@ -20,9 +194,117 @@
       "samples": 16
     },
     {
+      "src": "/journey/frames/frame-032.webp",
+      "progress": 0.2689075630252101,
+      "sha256": "83b62252412d568e087458e21a8fe1c83589a397e261e07e5791ac38eee6b30a",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-033.webp",
+      "progress": 0.2773109243697479,
+      "sha256": "35083d7e2fa014075be5a3c279d7b92630948d44efb77b4fc0bdf5d596105a15",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-034.webp",
+      "progress": 0.2857142857142857,
+      "sha256": "919bb2099dfc8638c5cb8c33f242a306157c2de102e63cfab6d9a58fd9755f46",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-035.webp",
+      "progress": 0.29411764705882354,
+      "sha256": "8460708dddcc35f30b088c02a49ffbc9d4cd1015e69970d8e4a2f697ca25ac73",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-036.webp",
+      "progress": 0.3025210084033613,
+      "sha256": "4c2b239a2be0afb9287f63775c2de0d96f1735779d05d39b3796b095b9b195a6",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-037.webp",
+      "progress": 0.31092436974789917,
+      "sha256": "5bbbe1b494762fd2c8aa3a6a507567d9a2fb2803579e785c90e9e21ed87cb39d",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-038.webp",
+      "progress": 0.31932773109243695,
+      "sha256": "c901111239d1d22c1c44b468bf54b9ea4c576bf635d0df3e6c57f474c8682c2a",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-039.webp",
+      "progress": 0.3277310924369748,
+      "sha256": "2a42caf5d08948accc8aea4c1bf9cb63c8c8c76ca87797bc8825302e1166a1f4",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-040.webp",
+      "progress": 0.33613445378151263,
+      "sha256": "9a1ed6397b9f6280300af3285a2fa74401486ea7bc5ffe1e34efd6c4ff2d7823",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-041.webp",
+      "progress": 0.3445378151260504,
+      "sha256": "cbc256bc8e3ffa9b675c229f049a592b8cf79ce96c6874f5569fa58101b46042",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-042.webp",
+      "progress": 0.35294117647058826,
+      "sha256": "b55707a884cb06e7e1e1ba3cd2385436801de6ccfd769890da994dddc0e868f0",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-043.webp",
+      "progress": 0.36134453781512604,
+      "sha256": "4361593cbc5fd867bc5aa2ff4bda0d012e4b5b1b54ac04a801bd1683577f3bde",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-044.webp",
+      "progress": 0.3697478991596639,
+      "sha256": "0be8562468c9837b4bbe69f5f7e04ed3bca2a164098fdcd4accf9f8d4d0bb850",
+      "samples": 16
+    },
+    {
       "src": "/journey/frames/frame-045.webp",
       "progress": 0.37815126050420167,
       "sha256": "5e845f439cee52c1c739392fde6e3120e95d60bcf42307db7e0561ea9ad86ba0",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-046.webp",
+      "progress": 0.3865546218487395,
+      "sha256": "c89ab866fed590ef531aa27958b156ccb67a49a4c7517709ec33ba38d1194d34",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-047.webp",
+      "progress": 0.3949579831932773,
+      "sha256": "8c996f25d42af3fa963597ccf0edf0cc21c9d5fa75552050503600951976df46",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-048.webp",
+      "progress": 0.40336134453781514,
+      "sha256": "e383c6e48210fdf0d48717c7ebdfe52f839cac503e2c4e8db1edf66785006f28",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-049.webp",
+      "progress": 0.4117647058823529,
+      "sha256": "9cbed53b06bddacee0e8bc0d55a2f79b243ed852136283c4d8d5ab6ac3f0c458",
+      "samples": 16
+    },
+    {
+      "src": "/journey/frames/frame-050.webp",
+      "progress": 0.42016806722689076,
+      "sha256": "a04a1fec304dcd87d9f08f3da241e371e098def3203acdb2b8ead223bf4f15c3",
       "samples": 16
     },
     {
@@ -66,5 +348,5 @@
   "width": 960,
   "height": 640,
   "sourceSha256": "c47cc0966c3e92248a8de3716e71a2faf314c25872a18d9b7be9bdc0a72b323b",
-  "totalFrameBytes": 200788
+  "totalFrameBytes": 1283566
 }
