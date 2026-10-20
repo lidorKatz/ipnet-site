@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IP.NET Security Solutions</title>
+  <title>IP.NET SECURITY &amp; LOCKSMITH</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -125,7 +125,7 @@
 </head>
 <body>
   <header>
-    <div class="logo">IP.NET Security Solutions</div>
+    <div class="logo">IP.NET SECURITY &amp; LOCKSMITH</div>
     <nav>
       <a href="#services">Services</a>
       <a href="#why">Why Us</a>
@@ -134,56 +134,66 @@
   </header>
 
   <section class="hero">
-    <h1>Secure. Smart. Reliable.</h1>
-    <p>NYC's trusted experts in communication and security systems</p>
+    <h1>ONE TEAM. TOTAL SECURITY.</h1>
+    <p>Access Control, CCTV, Intercom, Networking and Locksmith Services 24/7.<br>Commercial services across New York City, New Jersey and Connecticut. Residential locksmith services available 24/7 in NYC.</p>
   </section>
 
   <section class="services" id="services">
     <h2>Our Services</h2>
     <div class="service-item">
-      <h3>Surveillance Systems</h3>
-      <p>Custom CCTV installations for residential and commercial properties.</p>
+      <h3>Access Control</h3>
+      <p>Control who enters your property with key fobs, keypads, mobile access and electric locking hardware. Installation, troubleshooting and repair.</p>
     </div>
     <div class="service-item">
-      <h3>Intercoms & Access Control</h3>
-      <p>Modern and secure entry solutions tailored to your building's needs.</p>
+      <h3>CCTV</h3>
+      <p>Security camera installation, recording systems, remote viewing, troubleshooting and system upgrades for your property.</p>
     </div>
     <div class="service-item">
-      <h3>Alarm Systems & Smart Locks</h3>
-      <p>Advanced protection through intelligent alarm and locking systems.</p>
+      <h3>Intercom</h3>
+      <p>Video intercom installation, indoor monitors, mobile calling and door release. Repair or upgrade your existing entrance system.</p>
     </div>
     <div class="service-item">
-      <h3>Locksmith Services</h3>
-      <p>Fast, reliable help for lockouts, repairs, and security upgrades.</p>
+      <h3>Networking</h3>
+      <p>Structured cabling, WiFi, switches and network rack organization. Installation and troubleshooting to keep your systems connected.</p>
     </div>
     <div class="service-item">
-      <h3>Garage Door Automation</h3>
-      <p>High-tech garage door solutions integrated with your smart system.</p>
+      <h3>Locksmith Services 24/7</h3>
+      <p>Emergency lockouts, rekeying, lock repair, lock replacement and door adjustments. Call for 24/7 residential locksmith service in NYC.</p>
     </div>
   </section>
 
   <section class="why-choose" id="why">
-    <h2>Why Choose IP.NET?</h2>
-    <p>✔ Prompt, professional service<br>
-       ✔ Customized security plans<br>
-       ✔ Top-rated by NYC customers<br>
-       ✔ Fully licensed and insured</p>
+    <h2>About IP.NET SECURITY &amp; LOCKSMITH</h2>
+    <p>IP.NET SECURITY &amp; LOCKSMITH brings low voltage security, networking and locksmith services together under one contractor. We install, troubleshoot, repair and upgrade the systems that protect your property and keep it connected.</p>
+    <p>Serving commercial properties across all five NYC boroughs, New Jersey and Connecticut, with residential locksmith services available 24/7 in New York City.</p>
+    <p><a href="tel:+19175310595">Call (917) 531 0595 to discuss your project</a></p>
   </section>
 
   <section class="contact-form" id="contact">
-    <h2>Contact Us</h2>
-    <form action="#" method="post">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="tel" name="phone" placeholder="Phone Number" required>
-      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
+    <h2>Request Service</h2>
+    <p>Tell us what you need, or <a href="tel:+19175310595">call (917) 531 0595</a>. For emergency locksmith service, call now.</p>
+    <p id="contact-help">This form prepares a text message in your messaging app. Review and send it there. It does not submit a request through this website.</p>
+    <form action="sms:+19175310595" method="get" id="service-request" aria-describedby="contact-help">
+      <input type="text" name="name" placeholder="Your Name" aria-label="Your Name" required>
+      <input type="tel" name="phone" placeholder="Phone Number" aria-label="Phone Number" required>
+      <textarea name="message" rows="5" placeholder="Your Message and Service Location" aria-label="Your Message and Service Location" required></textarea>
+      <button type="submit">Prepare Text Message</button>
     </form>
   </section>
 
-  <a class="whatsapp-button" href="https://wa.me/12014492275" target="_blank">💬</a>
+  <a class="whatsapp-button" href="tel:+19175310595" aria-label="Call IP.NET SECURITY &amp; LOCKSMITH">☎</a>
 
   <footer>
-    <p>Get in touch: ipnet.security@gmail.com | Proudly serving all of New York City</p>
+    <p>IP.NET SECURITY &amp; LOCKSMITH<br>ONE TEAM. TOTAL SECURITY.<br><a href="tel:+19175310595" style="color: inherit;">(917) 531 0595</a><br>Commercial services: New York City, New Jersey and Connecticut.<br>Residential locksmith services: NYC, 24/7.</p>
   </footer>
+  <script>
+    document.getElementById('service-request').addEventListener('submit', function (event) {
+      event.preventDefault();
+      var fields = new FormData(event.currentTarget);
+      var message = 'Service request for IP.NET SECURITY & LOCKSMITH\nName: ' + fields.get('name') + '\nPhone: ' + fields.get('phone') + '\nMessage and location: ' + fields.get('message');
+      var separator = /iPad|iPhone|iPod/.test(navigator.userAgent) ? '&' : '?';
+      window.location.href = 'sms:+19175310595' + separator + 'body=' + encodeURIComponent(message);
+    });
+  </script>
 </body>
 </html>
